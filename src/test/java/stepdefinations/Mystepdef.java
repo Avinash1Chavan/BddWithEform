@@ -8,8 +8,10 @@ import io.cucumber.java.en.When;
 import org.json.simple.parser.ParseException;
 import pages.AdditionSoftwarePage;
 import pages.LoginForEform;
+import pages.PrivilegeFormPage;
 import pages.ViewStatusPg;
 import utils.CommonActions;
+import utils.ConfigReader;
 import utils.ExcelReader;
 
 import java.awt.*;
@@ -20,6 +22,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Mystepdef extends CommonActions {
 
+    PrivilegeFormPage pf = new PrivilegeFormPage(DriverFactory.getDriver());
     AdditionSoftwarePage as = new AdditionSoftwarePage(DriverFactory.getDriver());
     ViewStatusPg vsp = new ViewStatusPg(DriverFactory.getDriver());
     LoginForEform loginForEform = new LoginForEform(DriverFactory.getDriver());
@@ -37,18 +40,18 @@ public class Mystepdef extends CommonActions {
 
     /*TC_03 :This method is used to login using valid credential fetching from Excel utility.Excel Utility placed under utils package inside ExcelReader file
      */
-    @When("user fills credential  from given sheetname {string} and rownumber {int}")
-    public void user_Fills_The_Form_From_Given_Sheetname_And_RowNumber(String sheetName, Integer rowNumber) throws IOException, InterruptedException {
-        ExcelReader reader = new ExcelReader();
-        List<Map<String, String>> testData =
-                reader.getData("src/main/java/utils/Data.xlsx", sheetName);
-
-        String username = testData.get(rowNumber).get("Usename");
-        System.out.println("uname--" + username);
-        String pass = testData.get(rowNumber).get("Password");
-        loginForEform.log_In(username, pass);
-
-    }
+//    @When("user fills credential  from given sheetname {string} and rownumber {int}")
+//    public void user_Fills_The_Form_From_Given_Sheetname_And_RowNumber(String sheetName, Integer rowNumber) throws IOException, InterruptedException {
+//        ExcelReader reader = new ExcelReader();
+//        List<Map<String, String>> testData =
+//                reader.getData("src/main/java/utils/Data.xlsx", sheetName);
+//
+//        String username = testData.get(rowNumber).get("Usename");
+//        System.out.println("uname--" + username);
+//        String pass = testData.get(rowNumber).get("Password");
+//        loginForEform.log_In(username, pass);
+//
+//    }
 
     /* TC_03 :This method is used to Login using logINAndClosePopUp() defined in */
     @When("user clicks on Login button")
@@ -59,7 +62,7 @@ public class Mystepdef extends CommonActions {
     /* TC_04 , TC_05 :Select Privilege request */
     @Given("user is on Privilege request page")
     public void userIsOnPrivilegeRequestPage() {
-        //ef.clickOnMenu();
+        pf.clickOnMenu();
     }
 
     /*TC_05 : This method is used to select project name */
@@ -68,7 +71,6 @@ public class Mystepdef extends CommonActions {
     /*TC_09 : This method is used to for remark */
     @When("user enter required detail to raise eform")
     public void userEnterRequiredDetailToRaiseEform() throws IOException, ParseException, InterruptedException {
-        // ef.selectProjectName();
         as.selectProjectName();
         as.acceptTndC();
         as.enterRemark();
@@ -77,14 +79,18 @@ public class Mystepdef extends CommonActions {
     /*TC_10 : This method is used for check box to accpet terms */
     @And("User accept terms and conditions")
     public void userAcceptTermsAndConditions() {
-        //ef.clickOnCheckBox();
+        pf.clickOnCheckBox();
     }
 
     /*TC_11 : This method is used to submit Eform*/
     @And("User Click on Submit button")
     public void userClickOnSubmitButton() throws InterruptedException {
-        //pf.clickOnSubmitbtn();
         as.clickOnSubmitbtn();
+    }
+
+    @And("User Click Submit button")
+    public void userClickSubmitButton() throws InterruptedException {
+        pf.clickOnSubmitbtn();
     }
 
     /*-----------------------------------Test Scenario TS_02----------------------------------------*/
@@ -125,4 +131,21 @@ public class Mystepdef extends CommonActions {
         as.clickOnMenu();
     }
 
+    @When("user enters credential from credentialsheet")
+    public void userEntersCredentialFromCredentialsheet() throws IOException, InterruptedException {
+        String path = ConfigReader.getConfigValue("credentialSheet");
+        ExcelReader reader = new ExcelReader();
+        List<Map<String, String>> testData =
+                reader.getData(path, "Sheet1");
+
+        String username = testData.get(0).get("Usename");
+        System.out.println("uname--" + username);
+        String pass = testData.get(0).get("Password");
+        loginForEform.log_In(username, pass);
+    }
+
+    @When("user enter required detail")
+    public void userEnterRequiredDetail() throws IOException, ParseException, InterruptedException {
+        pf.selectProjectName();
+    }
 }

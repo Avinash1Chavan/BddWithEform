@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-    private Properties prop;
+    private static Properties prop;
 
 
     /* This method is used to read value from property file */
@@ -25,6 +25,20 @@ public class ConfigReader {
 
         return prop;
 
+    }
+
+    public static String getConfigValue(String property){
+        prop = new Properties();
+        try {
+            FileInputStream ip = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/configuration/config.properties");
+            prop.load(ip);
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return prop.getProperty(property);
     }
 
 }

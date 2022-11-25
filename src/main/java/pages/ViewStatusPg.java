@@ -40,7 +40,6 @@ public class ViewStatusPg extends CommonActions {
 
     /* This method is used for click on menu button */
     public void Clickmenu() throws InterruptedException {
-        Thread.sleep(3000);
         clickingOnWebElement(menu, 3);
     }
 
