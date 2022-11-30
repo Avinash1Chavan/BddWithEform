@@ -17,7 +17,6 @@ import org.testng.annotations.DataProvider;
 /*This class is used to achieve parallel execution */
 public class Runner extends AbstractTestNGCucumberTests {
 
-
     @Override
     @DataProvider(parallel = true)
     public Object[][] scenarios() {

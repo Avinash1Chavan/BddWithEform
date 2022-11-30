@@ -6,10 +6,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.json.simple.parser.ParseException;
-import pages.AdditionSoftwarePage;
-import pages.LoginForEform;
-import pages.PrivilegeFormPage;
-import pages.ViewStatusPg;
+import pages.*;
 import utils.CommonActions;
 import utils.ConfigReader;
 import utils.ExcelReader;
@@ -26,6 +23,7 @@ public class Mystepdef extends CommonActions {
     AdditionSoftwarePage as = new AdditionSoftwarePage(DriverFactory.getDriver());
     ViewStatusPg vsp = new ViewStatusPg(DriverFactory.getDriver());
     LoginForEform loginForEform = new LoginForEform(DriverFactory.getDriver());
+    public LoginForEformWithDB lb = new LoginForEformWithDB(DriverFactory.getDriver());
 
     /*---------------------------Test Scenario TS_01 --------------------------------------------*/
 
@@ -142,6 +140,12 @@ public class Mystepdef extends CommonActions {
         System.out.println("uname--" + username);
         String pass = testData.get(0).get("Password");
         loginForEform.log_In(username, pass);
+    }
+
+    @When("user enters credential from Db")
+    public void userEntersCredentialFromDb() throws Exception {
+        lb.logIn();
+        lb.logInAndClosePopUp();
     }
 
     @When("user enter required detail")
