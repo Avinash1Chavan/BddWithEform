@@ -2,6 +2,7 @@ package utils;
 
 
 import factory.DriverFactory;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -16,8 +17,10 @@ import java.util.Set;
 
 public class CommonActions {
 
+    static Logger log = Logger.getLogger(CommonActions.class);
+
     /* To click a certain Web Element */
-    public void clickingOnWebElement(WebElement element, long waitTimeInSeconds) {
+    public static void clickingOnWebElement(WebElement element, long waitTimeInSeconds) {
         //Declare and initialise a fluent wait
         FluentWait<WebDriver> wait = new FluentWait<>(DriverFactory.getDriver());
         //Specify the timout of the wait
@@ -33,12 +36,8 @@ public class CommonActions {
         element.click();
     }
 
-//    public void lauch(){
-//        driver.get("https://eformsnew.zensar.com/eformsDev/Login");
-//    }
-
     /* To Type at the specified location */
-    public void sendKeysWebElement(WebElement element, String text) throws InterruptedException {
+    public static void sendKeysWebElement(WebElement element, String text) throws InterruptedException {
         //Declare and initialise a fluent wait
         FluentWait<WebDriver> wait = new FluentWait<>(DriverFactory.getDriver());
         //Specify the timout of the wait
@@ -50,9 +49,7 @@ public class CommonActions {
 
         //This is how we specify the condition to wait on.
         //This is what we will explore more in this chapter
-        wait.until(ExpectedConditions.elementToBeClickable(element));
-        element.click();
-        element.clear();
+        wait.until(ExpectedConditions.visibilityOfAllElements(element));
         element.sendKeys(text);
     }
 
@@ -71,7 +68,7 @@ public class CommonActions {
 
 
     /* To ScrollDown using JavaScript Executor */
-    public void scrollDown(String valueTobeSelected) {
+    public static void scrollDown(String valueTobeSelected) {
         JavascriptExecutor jse = (JavascriptExecutor) DriverFactory.getDriver();
         jse.executeScript(valueTobeSelected);
     }
@@ -95,7 +92,7 @@ public class CommonActions {
 
 
     /* To Perform Select all Dropdown Option's  */
-    public void selectDropDownValue(WebElement element, String type, String value) {
+    public static void selectDropDownValue(WebElement element, String type, String value) {
         Select select = new Select(element);
         switch (type) {
             case "index":
@@ -108,7 +105,7 @@ public class CommonActions {
                 select.selectByVisibleText(value);
                 break;
             default:
-                System.out.println("pass the correct selection criteria");
+                log.info("pass the correct selection criteria");
                 break;
         }
     }
@@ -257,18 +254,18 @@ public class CommonActions {
     /*Calendar it helps to select future data */
     public void selectCalendar(String expectDay, String expectMonth, String expectYear) {
         if (expectMonth.equals("February") && Integer.parseInt(expectDay) > 29) {
-            System.out.println("wrong date: " + expectMonth + " : " + expectDay);
+            log.info("wrong date: " + expectMonth + " : " + expectDay);
             return;
         }
         if (Integer.parseInt(expectDay) > 31) {
-            System.out.println("wrong date: " + expectMonth + " : " + expectDay);
+            log.info("wrong date: " + expectMonth + " : " + expectDay);
             return;
         }
 
         String monthvalue = DriverFactory.getDriver().findElement(By.xpath("//div[@class='oxd-calendar-selector-month-selected']/p")).getText();
         String yearvalue = DriverFactory.getDriver().findElement(By.xpath("//div[@class='oxd-calendar-selector-year-selected']/p")).getText();
-        System.out.println(monthvalue);
-        System.out.println(yearvalue);
+        log.info(monthvalue);
+        log.info(yearvalue);
 
         while (!(monthvalue.equals(expectMonth) && yearvalue.equals(expectYear))) {
             DriverFactory.getDriver().findElement(By.cssSelector("i.oxd-icon.bi-chevron-right")).click(); //clicking next action
