@@ -1,4 +1,4 @@
-package pages;
+package pageaction;
 
 import factory.DriverFactory;
 import org.json.simple.JSONArray;
@@ -12,14 +12,13 @@ import utils.CommonActions;
 import utils.JsonRead;
 
 import java.io.IOException;
-import java.util.Collections;
 import java.util.concurrent.TimeUnit;
 
-public class AdditionSoftwarePage extends CommonActions {
+public class AdditionSoftwarePage {
 
     WebDriver driver;
 
-    /*initializing the page objects*/
+    /* initializing the page objects */
     public AdditionSoftwarePage(WebDriver rDriver) {
         driver = rDriver;
 
@@ -46,9 +45,11 @@ public class AdditionSoftwarePage extends CommonActions {
     @FindBy(xpath = "//select[@id='assetNumber']")
     WebElement assetNumber;
 
+    /* it's finding licence type element in eform Application */
     @FindBy(xpath = "//select[@formcontrolname='licenseType']")
     WebElement licenseType;
 
+    /* it's finding  commercial element in eform Application */
     @FindBy(xpath = "//select[@formcontrolname='commercial']")
     WebElement freeware;
 
@@ -92,29 +93,26 @@ public class AdditionSoftwarePage extends CommonActions {
     @FindBy(xpath = "//a[@class='au-btn--submit ml-4 btnToScroll ng-star-inserted']")
     WebElement submitbtn;
 
-    @FindBy(xpath = "//input[@id='radioUser1']")
-    WebElement radiobtnuser;
-
-//    @FindBy(xpath = "(//input[@id='modifySoftware2'])[1]")
-//    WebElement radiobtncnd;
-
+    /* it's finding terms and conditions element in eform Application */
     @FindBy(xpath = "//a[normalize-space()='Terms & Conditions']")
     WebElement tndc;
 
+    /* it's finding checkbox element in eform Application */
     @FindBy(xpath = "//div[@id='okBtn']//input[@placeholder='Please enter details']")
     WebElement checkbox;
 
+    /* it's finding ok button element in eform Application */
     @FindBy(xpath = "//button[normalize-space()='OK']")
     WebElement okbtn;
 
     /* This method is used to click menu and select request type */
-    public void clickOnMenu() throws InterruptedException {
-        clickingOnWebElement(menu, 5);
-        clickingOnWebElement(type, 5);
+    public void clickOnMenu() {
+        CommonActions.clickingOnWebElement(menu, 5);
+        CommonActions.clickingOnWebElement(type, 5);
     }
 
-    /* This method is used to select respective project name  */
-    public void selectProjectName() throws InterruptedException, IOException, ParseException {
+    /* This method is used to select respective project name and fill remaining details */
+    public void enterRequireDetails() throws InterruptedException, IOException, ParseException {
         String projectName = "";
         String ProductDetails = "";
         String AssetNumber = "";
@@ -125,13 +123,13 @@ public class AdditionSoftwarePage extends CommonActions {
         String DeskNumber = "";
         String Hostname = "";
         String RequireDate = "";
-        String Userdetails = "";
         String LicenseType = "";
         String Commercial = "";
-        String SoftwareModify = "";
         String IpAddress = "";
+        String Value = "";
+        String Index = "";
 
-        JSONArray usersList = JsonRead.JsonRead(); //This stores the entire json file
+        JSONArray usersList = JsonRead.jsonRead(); //This stores the entire json file
         for (int i = 0; i < usersList.size(); i++) {
             JSONObject users = (JSONObject) usersList.get(i); //This stores every block - one json object
             JSONObject user = (JSONObject) users.get("users"); //This stores each data in the block
@@ -145,44 +143,45 @@ public class AdditionSoftwarePage extends CommonActions {
             DeskNumber = (String) user.get("desknumber");
             Hostname = (String) user.get("hostname");
             RequireDate = (String) user.get("requiredate");
-            Userdetails = (String) user.get("userdetails");
             LicenseType = (String) user.get("licenseType");
             Commercial = (String) user.get("commercial");
-            SoftwareModify = (String) user.get("softwareModify");
             IpAddress = (String) user.get("ipAddress");
+            Value = (String) user.get("value");
+            Index = (String) user.get("index");
 
         }
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        selectDropDownValue(projectname, "value", projectName);
-        scrollDown(ScrollDown);
-        sendKeysWebElement(extensionNumber, ExtensionNumber);
-        selectDropDownValue(location, "value", Location);
-        selectDropDownValue(assetNumber, "value", AssetNumber);
-        sendKeysWebElement(assetNo, AssetNo);
-        sendKeysWebElement(deskNumber, DeskNumber);
-        selectRadioButtonValue(Collections.singletonList(radiobtnuser), Userdetails);
-        sendKeysWebElement(ipAddress, IpAddress);
-        sendKeysWebElement(hostname, Hostname);
-        scrollDown(ScrollDown);
-        clickingOnWebElement(internalProject, 3);
-        selectDropDownValue(licenseType, "index", LicenseType);
-        selectDropDownValue(freeware, "index", Commercial);
-        //sendKeysWebElement(requiredDate, RequireDate);
-        sendKeysWebElement(productName, ProductDetails);
-        //selectRadioButtonValue(Collections.singletonList(radiobtncnd),SoftwareModify);
-    }
-
-    public void acceptTndC() throws InterruptedException {
-        clickingOnWebElement(tndc, 3);
+        CommonActions.selectDropDownValue(projectname, Value, projectName);
+        CommonActions.scrollDown(ScrollDown);
+        CommonActions.sendKeysWebElement(extensionNumber, ExtensionNumber);
+        CommonActions.selectDropDownValue(location, Value, Location);
+        CommonActions.selectDropDownValue(assetNumber, Value, AssetNumber);
+        CommonActions.sendKeysWebElement(assetNo, AssetNo);
+        CommonActions.sendKeysWebElement(deskNumber, DeskNumber);
+        CommonActions.sendKeysWebElement(ipAddress, IpAddress);
+        CommonActions.sendKeysWebElement(hostname, Hostname);
+        CommonActions.scrollDown(ScrollDown);
+        CommonActions.clickingOnWebElement(internalProject, 3);
+        CommonActions.selectDropDownValue(licenseType, Index, LicenseType);
+        CommonActions.selectDropDownValue(freeware, Index, Commercial);
         Thread.sleep(3000);
-        clickingOnWebElement(checkbox, 5);
-        clickingOnWebElement(okbtn, 3);
+        //requiredDate.sendKeys(RequireDate);
+        CommonActions.sendKeysWebElement(productName, ProductDetails);
     }
 
+    /* This method is used to accept terms and conditions */
+    public void acceptTndC() throws InterruptedException {
+        CommonActions.clickingOnWebElement(tndc, 3);
+        Thread.sleep(3000);
+        CommonActions.clickingOnWebElement(checkbox, 5);
+        CommonActions.clickingOnWebElement(okbtn, 3);
+    }
+
+    /* This method is used to fill remark details */
     public void enterRemark() throws IOException, ParseException, InterruptedException {
         String Remark = "";
         String ScrollDown = "";
-        JSONArray usersList = JsonRead.JsonRead(); //This stores the entire json file
+        JSONArray usersList = JsonRead.jsonRead(); //This stores the entire json file
         for (int i = 0; i < usersList.size(); i++) {
             JSONObject users = (JSONObject) usersList.get(i); //This stores every block - one json object
             JSONObject user = (JSONObject) users.get("users"); //This stores each data in the block
@@ -190,15 +189,15 @@ public class AdditionSoftwarePage extends CommonActions {
             ScrollDown = (String) user.get("scrolldown");
         }
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        sendKeysWebElement(remark, Remark);
-        scrollDown(ScrollDown);
+        CommonActions.sendKeysWebElement(remark, Remark);
+        CommonActions.scrollDown(ScrollDown);
 
     }
 
     /* This method is used to click on submit button */
-    public void clickOnSubmitbtn() throws InterruptedException {
+    public void clickOnSubmitbtn() {
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        clickingOnWebElement(submitbtn, 2);
+        CommonActions.clickingOnWebElement(submitbtn, 2);
     }
 
 

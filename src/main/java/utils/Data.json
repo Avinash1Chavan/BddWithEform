@@ -11,13 +11,13 @@
       "desknumber":"00",
       "hostname":"PO1284784747",
       "remark":"For project purpose",
-      "userdetails":"Self",
       "licenseType":"3",
       "commercial":"1",
-      "softwareModify":"No",
       "ipAddress":"192.168.9.0",
       "requiredate":"30/11/2022",
-      "productdetails":"Application"
+      "productdetails":"Application",
+      "value": "value",
+      "index": "index"
     }
   }
 ]

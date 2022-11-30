@@ -5,12 +5,9 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.log4j.Logger;
 import org.json.simple.parser.ParseException;
-import pages.AdditionSoftwarePage;
-import pages.LoginForEform;
-import pages.PrivilegeFormPage;
-import pages.ViewStatusPg;
-import utils.CommonActions;
+import pageobject.Pages;
 import utils.ConfigReader;
 import utils.ExcelReader;
 
@@ -20,12 +17,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-public class Mystepdef extends CommonActions {
+public class Mystepdef {
 
-    PrivilegeFormPage pf = new PrivilegeFormPage(DriverFactory.getDriver());
-    AdditionSoftwarePage as = new AdditionSoftwarePage(DriverFactory.getDriver());
-    ViewStatusPg vsp = new ViewStatusPg(DriverFactory.getDriver());
-    LoginForEform loginForEform = new LoginForEform(DriverFactory.getDriver());
+
+    public Mystepdef(Pages page) {
+        this.page = page;
+    }
+
+    private Pages page;
+    Logger log = Logger.getLogger(Mystepdef.class);
 
     /*---------------------------Test Scenario TS_01 --------------------------------------------*/
 
@@ -33,104 +33,13 @@ public class Mystepdef extends CommonActions {
      method located into factoty package */
     @Given("user navigates to Website")
     public void user_Navigates_To_Website() throws InterruptedException {
-         // getdriver method is called from Driverfactory class which is located in factory package*/
+        // getdriver method is called from Driverfactory class which is located in factory package*/
+        log.info("****************************** Starting test cases execution  *****************************************");
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         DriverFactory.getDriver().get("https://eformsnew.zensar.com/eformsDev/Login");
     }
 
-    /*TC_03 :This method is used to login using valid credential fetching from Excel utility.Excel Utility placed under utils package inside ExcelReader file
-     */
-//    @When("user fills credential  from given sheetname {string} and rownumber {int}")
-//    public void user_Fills_The_Form_From_Given_Sheetname_And_RowNumber(String sheetName, Integer rowNumber) throws IOException, InterruptedException {
-//        ExcelReader reader = new ExcelReader();
-//        List<Map<String, String>> testData =
-//                reader.getData("src/main/java/utils/Data.xlsx", sheetName);
-//
-//        String username = testData.get(rowNumber).get("Usename");
-//        System.out.println("uname--" + username);
-//        String pass = testData.get(rowNumber).get("Password");
-//        loginForEform.log_In(username, pass);
-//
-//    }
-
-    /* TC_03 :This method is used to Login using logINAndClosePopUp() defined in */
-    @When("user clicks on Login button")
-    public void user_Clicks_On_Login_Button() throws AWTException, InterruptedException {
-        loginForEform.logInAndClosePopUp();
-    }
-
-    /* TC_04 , TC_05 :Select Privilege request */
-    @Given("user is on Privilege request page")
-    public void userIsOnPrivilegeRequestPage() {
-        pf.clickOnMenu();
-    }
-
-    /*TC_05 : This method is used to select project name */
-    /*TC_06 ,TC_07 : This method is used to fill required information of Location */
-    /*TC_08 : This method is used to fill host details */
-    /*TC_09 : This method is used to for remark */
-    @When("user enter required detail to raise eform")
-    public void userEnterRequiredDetailToRaiseEform() throws IOException, ParseException, InterruptedException {
-        as.selectProjectName();
-        as.acceptTndC();
-        as.enterRemark();
-    }
-
-    /*TC_10 : This method is used for check box to accpet terms */
-    @And("User accept terms and conditions")
-    public void userAcceptTermsAndConditions() {
-        pf.clickOnCheckBox();
-    }
-
-    /*TC_11 : This method is used to submit Eform*/
-    @And("User Click on Submit button")
-    public void userClickOnSubmitButton() throws InterruptedException {
-        as.clickOnSubmitbtn();
-    }
-
-    @And("User Click Submit button")
-    public void userClickSubmitButton() throws InterruptedException {
-        pf.clickOnSubmitbtn();
-    }
-
-    /*-----------------------------------Test Scenario TS_02----------------------------------------*/
-    /*TC_03, TC_04 :This method is click menu Hamburger  and view status option*/
-    @When("user clicks on View Status button")
-    public void userClicksOnViewStatusButton() throws InterruptedException {
-        vsp.Clickmenu();
-        vsp.ClickViewStatusBtn();
-
-    }
-
-    /*TC_11 : This method is used to enter Eform number*/
-    @And("user fills E-formNo")
-    public void userFillsEFormNoAs() throws InterruptedException {
-        vsp.EnterEformNO();
-    }
-
-    /*TC_11 : This method is used to enter Eform number*/
-    @And("user clicks on Submit button")
-    public void userClicksOnSubmitButton() throws InterruptedException {
-        Thread.sleep(3000);
-        vsp.ClickSubmitBtn();
-    }
-
-
-    @Then("User gets eform number")
-    public void userGetsEformNumber() {
-
-    }
-
-    @And("verify status")
-    public void verifyStatus() {
-        vsp.VerifyStatus();
-    }
-
-    @Given("user is on Additional software request page")
-    public void userIsOnAdditionalSoftwareRequestPage() throws InterruptedException {
-        as.clickOnMenu();
-    }
-
+    /* TC_03 :This method is used to enter required credentials */
     @When("user enters credential from credentialsheet")
     public void userEntersCredentialFromCredentialsheet() throws IOException, InterruptedException {
         String path = ConfigReader.getConfigValue("credentialSheet");
@@ -139,13 +48,95 @@ public class Mystepdef extends CommonActions {
                 reader.getData(path, "Sheet1");
 
         String username = testData.get(0).get("Usename");
-        System.out.println("uname--" + username);
+        log.info("uname--" + username);
         String pass = testData.get(0).get("Password");
-        loginForEform.log_In(username, pass);
+        page.loginForEform().log_In(username, pass);
     }
 
+    /* TC_03 :This method is used to Login using logINAndClosePopUp() defined in */
+    @When("user clicks on Login button")
+    public void user_Clicks_On_Login_Button() throws AWTException, InterruptedException {
+        page.loginForEform().logInAndClosePopUp();
+    }
+
+
+    /* TC_04 , TC_05 :Select Privilege request */
+    @Given("user is on Privilege request page")
+    public void userIsOnPrivilegeRequestPage() {
+        page.privilegeFormPage().clickOnMenu();
+    }
+
+    /*TC_05 : This method is used to select project name */
+    /*TC_06 ,TC_07 : This method is used to fill required information of Location */
+    /*TC_08 : This method is used to fill host details */
+    /*TC_09 : This method is used to for remark */
+    @When("user enter required detail to raise eform")
+    public void userEnterRequiredDetailToRaiseEform() throws IOException, ParseException, InterruptedException {
+        page.additionSoftwarePage().enterRequireDetails();
+        page.additionSoftwarePage().acceptTndC();
+        page.additionSoftwarePage().enterRemark();
+    }
+
+    /*TC_10 : This method is used for check box to accpet terms */
+    @And("User accept terms and conditions")
+    public void userAcceptTermsAndConditions() {
+        page.privilegeFormPage().clickOnCheckBox();
+    }
+
+    /*TC_11 : This method is used to submit Eform*/
+    @And("User Click on Submit button")
+    public void userClickOnSubmitButton() throws InterruptedException {
+        page.additionSoftwarePage().clickOnSubmitbtn();
+    }
+
+    @And("User Click Submit button")
+    public void userClickSubmitButton() throws InterruptedException {
+        page.privilegeFormPage().clickOnSubmitbtn();
+    }
+
+    /*-----------------------------------Test Scenario TS_02----------------------------------------*/
+    /*TC_03, TC_04 :This method is click menu Hamburger  and view status option*/
+    @When("user clicks on View Status button")
+    public void userClicksOnViewStatusButton() throws InterruptedException {
+        page.viewStatusPg().Clickmenu();
+        page.viewStatusPg().ClickViewStatusBtn();
+
+    }
+
+    /*TC_11 : This method is used to enter Eform number*/
+    @And("user fills E-formNo")
+    public void userFillsEFormNoAs() throws InterruptedException {
+        page.viewStatusPg().EnterEformNO();
+    }
+
+    /*TC_11 : This method is used to enter Eform number*/
+    @And("user clicks on Submit button")
+    public void userClicksOnSubmitButton() throws InterruptedException {
+        Thread.sleep(3000);
+        page.viewStatusPg().ClickSubmitBtn();
+    }
+
+
+    @Then("User gets eform number")
+    public void userGetsEformNumber() {
+
+    }
+
+    /* TC_03 :This method is used to verify status of particular eform number */
+    @And("verify status")
+    public void verifyStatus() {
+        page.viewStatusPg().VerifyStatus();
+    }
+
+    /* TC_03 :This method is used to click on menu button */
+    @Given("user is on Additional software request page")
+    public void userIsOnAdditionalSoftwareRequestPage() throws InterruptedException {
+        page.additionSoftwarePage().clickOnMenu();
+    }
+
+    /* TC_03 :This method is used to enter require details*/
     @When("user enter required detail")
     public void userEnterRequiredDetail() throws IOException, ParseException, InterruptedException {
-        pf.selectProjectName();
+        page.privilegeFormPage().enterRequireDetails();
     }
 }

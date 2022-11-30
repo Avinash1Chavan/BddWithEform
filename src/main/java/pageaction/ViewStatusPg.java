@@ -1,7 +1,7 @@
-package pages;
+package pageaction;
 
 import factory.DriverFactory;
-import org.openqa.selenium.Keys;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,64 +10,74 @@ import utils.CommonActions;
 
 import java.util.concurrent.TimeUnit;
 
-public class ViewStatusPg extends CommonActions {
+public class ViewStatusPg {
 
-    /* it's finding menu element in eform Application */
-    @FindBy(xpath = "//div[@class='noti__item js-item-menu']//img")
-    WebElement menu;
-    /* it's finding view status option element in eform Application */
-    @FindBy(xpath = "//a[@id='AdminReportsComponent']")
-    WebElement ViewStatusBtn;
-    /* it's finding eform text box element in eform Application */
-    @FindBy(xpath = "/html/body/app-root/app-admin-reports/div/div/div/div/div[2]/div/input")
-    WebElement eform;
-    @FindBy(xpath = "//button[@id='btn']")
-    WebElement downArrow;
-    @FindBy(xpath = "//div[@class='card-body']//div[1]//div[3]//b[1]")
-    WebElement VerifyApprovedStatus;
-    /* it's finding submit button element in eform Application */
-    @FindBy(xpath = "//button[normalize-space()='Submit']")
-    WebElement submitBtn;
+    Logger log = Logger.getLogger(ViewStatusPg.class);
 
     WebDriver driver;
 
-    public ViewStatusPg(WebDriver rDriver)
-    {
-        driver=rDriver;
+    /* initializing the page objects */
+    public ViewStatusPg(WebDriver rDriver) {
+        driver = rDriver;
 
         PageFactory.initElements(rDriver, this);
     }
 
+    /* it's finding menu element in eform Application */
+    @FindBy(xpath = "//div[@class='noti__item js-item-menu']//img")
+    WebElement menu;
+
+    /* it's finding view status option element in eform Application */
+    @FindBy(xpath = "//a[@id='AdminReportsComponent']")
+    WebElement ViewStatusBtn;
+
+    /* it's finding eform text box element in eform Application */
+    @FindBy(xpath = "/html/body/app-root/app-admin-reports/div/div/div/div/div[2]/div/input")
+    WebElement eform;
+
+    /* it's finding down arrow button element in eform Application */
+    @FindBy(xpath = "//button[@id='btn']")
+    WebElement downArrow;
+
+    /* it's finding verify text element in eform Application */
+    @FindBy(xpath = "//div[@class='card-body']//div[1]//div[3]//b[1]")
+    WebElement VerifyApprovedStatus;
+
+    /* it's finding submit button element in eform Application */
+    @FindBy(xpath = "//button[normalize-space()='Submit']")
+    WebElement submitBtn;
+
+
     /* This method is used for click on menu button */
-    public void Clickmenu() throws InterruptedException {
-        clickingOnWebElement(menu, 3);
+    public void Clickmenu() {
+        CommonActions.clickingOnWebElement(menu, 3);
     }
 
     /* This method is used to select view status  */
-    public void ClickViewStatusBtn() throws InterruptedException {
+    public void ClickViewStatusBtn() {
 
-        clickingOnWebElement(ViewStatusBtn, 3);
+        CommonActions.clickingOnWebElement(ViewStatusBtn, 3);
     }
 
     /* This method is used for enter the eform number in text box */
-    public void EnterEformNO() throws InterruptedException {
+    public void EnterEformNO() {
         eform.sendKeys("325582");
     }
 
     /* This method is used for click submit button*/
-    public void ClickSubmitBtn() throws InterruptedException {
+    public void ClickSubmitBtn() {
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        clickingOnWebElement(submitBtn, 3);
-        clickingOnWebElement(downArrow, 3);
+        CommonActions.clickingOnWebElement(submitBtn, 3);
+        CommonActions.clickingOnWebElement(downArrow, 3);
     }
 
     public void VerifyStatus() {
         String verifyViewStatus = VerifyApprovedStatus.getText();
-        System.out.println(verifyViewStatus);
+        log.info(verifyViewStatus);
         if (verifyViewStatus.equals("Approved on")) {
-            System.out.println("Eform status :" + "EForm request is Approved");
+            log.info("Eform status :" + "EForm request is Approved");
         } else {
-            System.out.println("Eform status :" + "EForm request is not yet Approved");
+            log.info("Eform status :" + "EForm request is not yet Approved");
         }
     }
 }

@@ -1,5 +1,6 @@
 package factory;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,20 +10,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import utils.CommonActions;
 
-import java.time.Duration;
-import java.util.concurrent.TimeUnit;
+public class DriverFactory {
 
-public class DriverFactory extends CommonActions {
-
-   // public WebDriver driver;
-
-      public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
+    Logger log = Logger.getLogger(DriverFactory.class);
+    public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 
 
     /* for browser launching */
     public WebDriver init_driver(String browser) {
 
-        System.out.println("browser name is: " + browser);
+        log.info("browser name is: " + browser);
 
         if (browser.equals("chrome")) {
             ChromeOptions co = new ChromeOptions();
@@ -31,13 +28,13 @@ public class DriverFactory extends CommonActions {
         } else if (browser.equals("edge")) {
             EdgeOptions eo = new EdgeOptions();
             eo.setHeadless(false);
-            tlDriver.set( new EdgeDriver(eo));
+            tlDriver.set(new EdgeDriver(eo));
         } else if (browser.equals("firefox")) {
             FirefoxOptions fo = new FirefoxOptions();
             fo.setHeadless(false);
-            tlDriver.set( new FirefoxDriver(fo));
+            tlDriver.set(new FirefoxDriver(fo));
         } else {
-            System.out.println("Please pass the correct browser value: " + browser);
+            log.info("Please pass the correct browser value: " + browser);
         }
 
 
@@ -47,7 +44,7 @@ public class DriverFactory extends CommonActions {
     }
 
 
-        /*driver initialized */
+    /*driver initialized */
     public static synchronized WebDriver getDriver() {
         return tlDriver.get();
     }
