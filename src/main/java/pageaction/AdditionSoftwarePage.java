@@ -1,8 +1,8 @@
 package pageaction;
 
 import factory.DriverFactory;
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,8 +11,9 @@ import org.openqa.selenium.support.PageFactory;
 import utils.CommonActions;
 import utils.JsonRead;
 
+import java.io.FileReader;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 public class AdditionSoftwarePage {
 
@@ -36,6 +37,10 @@ public class AdditionSoftwarePage {
     /* it's finding project name element in eform Application */
     @FindBy(xpath = "//select[@id='projectName']")
     WebElement projectname;
+
+    /* it's finding user element in eform Application */
+    @FindBy(xpath = "//input[@id='radioUser1']")
+    WebElement radiouser;
 
     /* it's finding asset type element in eform Application */
     @FindBy(xpath = "//input[@formcontrolname='ipAddress']")
@@ -113,57 +118,41 @@ public class AdditionSoftwarePage {
 
     /* This method is used to select respective project name and fill remaining details */
     public void enterRequireDetails() throws InterruptedException, IOException, ParseException {
-        String projectName = "";
-        String ProductDetails = "";
-        String AssetNumber = "";
-        String AssetNo = "";
-        String ScrollDown = "";
-        String ExtensionNumber = "";
-        String Location = "";
-        String DeskNumber = "";
-        String Hostname = "";
-        String RequireDate = "";
-        String LicenseType = "";
-        String Commercial = "";
-        String IpAddress = "";
-        String Value = "";
-        String Index = "";
 
-        JSONArray usersList = JsonRead.jsonRead(); //This stores the entire json file
-        for (int i = 0; i < usersList.size(); i++) {
-            JSONObject users = (JSONObject) usersList.get(i); //This stores every block - one json object
-            JSONObject user = (JSONObject) users.get("users"); //This stores each data in the block
-            projectName = (String) user.get("project");
-            ProductDetails = (String) user.get("productdetails");
-            AssetNumber = (String) user.get("assetnumber");
-            AssetNo = (String) user.get("assetno");
-            ScrollDown = (String) user.get("scrolldown");
-            ExtensionNumber = (String) user.get("extensionnumber");
-            Location = (String) user.get("location");
-            DeskNumber = (String) user.get("desknumber");
-            Hostname = (String) user.get("hostname");
-            RequireDate = (String) user.get("requiredate");
-            LicenseType = (String) user.get("licenseType");
-            Commercial = (String) user.get("commercial");
-            IpAddress = (String) user.get("ipAddress");
-            Value = (String) user.get("value");
-            Index = (String) user.get("index");
+        // parsing file "JSONExample.json"
+        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/main/java/utils/Data.json"));
 
-        }
-        DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-        CommonActions.selectDropDownValue(projectname, Value, projectName);
-        CommonActions.scrollDown(ScrollDown);
+        // typecasting obj to JSONObject
+        JSONObject jsonObject = (JSONObject) obj;
+
+       String projectName = JsonRead.getValue(jsonObject, "project");
+       String ProductDetails = JsonRead.getValue(jsonObject, "productdetails");
+       String AssetNumber = JsonRead.getValue(jsonObject, "assetnumber");
+       String AssetNo = JsonRead.getValue(jsonObject, "assetno");
+       String ExtensionNumber = JsonRead.getValue(jsonObject, "extensionnumber");
+       String Location = JsonRead.getValue(jsonObject, "location");
+       String DeskNumber = JsonRead.getValue(jsonObject, "desknumber");
+       String Hostname = JsonRead.getValue(jsonObject, "hostname");
+       String RequireDate = JsonRead.getValue(jsonObject, "requiredate");
+       String LicenseType = JsonRead.getValue(jsonObject, "licenseType");
+       String Commercial = JsonRead.getValue(jsonObject, "commercial");
+       String IpAddress = JsonRead.getValue(jsonObject, "ipAddress");
+
+        DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        CommonActions.selectDropDownValue(projectname, "value", projectName);
+        CommonActions.scrollDown("window.scrollBy(0, 430)");
         CommonActions.sendKeysWebElement(extensionNumber, ExtensionNumber);
-        CommonActions.selectDropDownValue(location, Value, Location);
-        CommonActions.selectDropDownValue(assetNumber, Value, AssetNumber);
+        CommonActions.selectDropDownValue(location, "value", Location);
+        CommonActions.selectDropDownValue(assetNumber, "Value", AssetNumber);
         CommonActions.sendKeysWebElement(assetNo, AssetNo);
         CommonActions.sendKeysWebElement(deskNumber, DeskNumber);
+        CommonActions.clickingOnWebElement(radiouser, 3);
         CommonActions.sendKeysWebElement(ipAddress, IpAddress);
         CommonActions.sendKeysWebElement(hostname, Hostname);
-        CommonActions.scrollDown(ScrollDown);
+        CommonActions.scrollDown("window.scrollBy(0, 430)");
         CommonActions.clickingOnWebElement(internalProject, 3);
-        CommonActions.selectDropDownValue(licenseType, Index, LicenseType);
-        CommonActions.selectDropDownValue(freeware, Index, Commercial);
+        CommonActions.selectDropDownValue(licenseType, "index", LicenseType);
+        CommonActions.selectDropDownValue(freeware, "index", Commercial);
         Thread.sleep(3000);
         //requiredDate.sendKeys(RequireDate);
         CommonActions.sendKeysWebElement(productName, ProductDetails);
@@ -181,22 +170,24 @@ public class AdditionSoftwarePage {
     public void enterRemark() throws IOException, ParseException, InterruptedException {
         String Remark = "";
         String ScrollDown = "";
-        JSONArray usersList = JsonRead.jsonRead(); //This stores the entire json file
-        for (int i = 0; i < usersList.size(); i++) {
-            JSONObject users = (JSONObject) usersList.get(i); //This stores every block - one json object
-            JSONObject user = (JSONObject) users.get("users"); //This stores each data in the block
-            Remark = (String) user.get("remark");
-            ScrollDown = (String) user.get("scrolldown");
-        }
-        DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        // parsing file "JSONExample.json"
+        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/main/java/utils/Data.json"));
+
+        // typecasting obj to JSONObject
+        JSONObject jsonObject = (JSONObject) obj;
+
+        Remark = JsonRead.getValue(jsonObject, "remark");
+        ScrollDown = JsonRead.getValue(jsonObject, "scrolldown");
+
+        DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         CommonActions.sendKeysWebElement(remark, Remark);
-        CommonActions.scrollDown(ScrollDown);
+        CommonActions.scrollDown("window.scrollBy(0, 430)");
 
     }
 
     /* This method is used to click on submit button */
     public void clickOnSubmitbtn() {
-        DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         CommonActions.clickingOnWebElement(submitbtn, 2);
     }
 
