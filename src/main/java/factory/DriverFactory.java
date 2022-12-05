@@ -10,6 +10,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import utils.CommonActions;
 
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
 public class DriverFactory {
 
     Logger log = Logger.getLogger(DriverFactory.class);
@@ -38,6 +41,7 @@ public class DriverFactory {
         }
 
 
+        DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         getDriver().manage().window().maximize();
         getDriver().manage().deleteAllCookies();
         return getDriver();

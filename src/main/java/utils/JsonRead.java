@@ -14,20 +14,10 @@ public class JsonRead {
     static Logger log = Logger.getLogger(JsonRead.class);
     static String value = "";
 
-    /* This method is used for reading from json file */
-    public static JSONArray jsonRead() throws IOException, ParseException {
-        JSONParser jsonParser = new JSONParser();
-        FileReader reader = new FileReader(System.getProperty("user.dir") + "/src/main/java/utils/Data.json");
-        //Read JSON file
-        Object obj = jsonParser.parse(reader);
-        JSONArray usersList = (JSONArray) obj;
-        return usersList;
-    }
-
     public static String getValue(Object json, String str) {
 
-        if (json instanceof org.json.simple.JSONObject) {
-            if ((((org.json.simple.JSONObject) json).containsKey(str))) {
+        if (json instanceof JSONObject) {
+            if ((((JSONObject) json).containsKey(str))) {
                 value = ((JSONObject) json).get(str).toString();
                 log.info(value);
             } else {
@@ -37,9 +27,9 @@ public class JsonRead {
                         getValue(tempJSON, str);
                     }
                     if (((JSONObject) json).get(obj) instanceof JSONArray) {
-                        JSONArray tempArrray = (JSONArray) ((JSONObject) json).get(obj);
-                        for (int i = 0; i < tempArrray.size(); i++) {
-                            getValue(tempArrray.get(i), str);
+                        JSONArray jsonArray = (JSONArray) ((JSONObject) json).get(obj);
+                        for (int i = 0; i < jsonArray.size(); i++) {
+                            getValue(jsonArray.get(i), str);
                         }
                     }
 

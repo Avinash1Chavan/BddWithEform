@@ -6,12 +6,20 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.log4j.Logger;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import org.xml.sax.SAXException;
 import pageobject.Pages;
 import utils.ConfigReader;
 import utils.ExcelReader;
+import utils.JsonRead;
+import utils.XmlReader;
 
+import javax.xml.parsers.ParserConfigurationException;
 import java.awt.*;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
@@ -32,9 +40,10 @@ public class Mystepdef {
     /* TC_02 :This method is used to navigate respective URL using getDriver() calling from DriverFactory
      method located into factoty package */
     @Given("user navigates to Website")
-    public void user_Navigates_To_Website() throws InterruptedException {
+    public void user_Navigates_To_Website() throws InterruptedException, IOException, ParseException, ParserConfigurationException, SAXException {
         // getdriver method is called from Driverfactory class which is located in factory package*/
         log.info("****************************** Starting test cases execution  *****************************************");
+        XmlReader.XmlReader();
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         DriverFactory.getDriver().get("https://eformsnew.zensar.com/eformsDev/Login");
     }

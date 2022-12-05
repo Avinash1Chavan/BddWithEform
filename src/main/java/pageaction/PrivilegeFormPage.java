@@ -1,9 +1,8 @@
 package pageaction;
 
 import factory.DriverFactory;
-import org.apache.log4j.Logger;
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,12 +11,13 @@ import org.openqa.selenium.support.PageFactory;
 import utils.CommonActions;
 import utils.JsonRead;
 
+import java.io.FileReader;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
+
 
 public class PrivilegeFormPage {
 
-    Logger log = Logger.getLogger(PrivilegeFormPage.class);
     WebDriver driver;
 
     /* initializing the page objects */
@@ -95,49 +95,35 @@ public class PrivilegeFormPage {
 
     /* This method is used to select respective project name and fill required details */
     public void enterRequireDetails() throws InterruptedException, IOException, ParseException {
-        String projectName = "";
-        String AssetType = "";
-        String AssetNumber = "";
-        String AssetNo = "";
-        String ScrollDown = "";
-        String ExtensionNumber = "";
-        String Location = "";
-        String DeskNumber = "";
-        String Hostname = "";
-        String Remark = "";
+        // parsing file "JSONExample.json"
+        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/main/java/utils/Data.json"));
 
-        JSONArray usersList = JsonRead.jsonRead();
-        log.info("Users List-> " + usersList); //This prints the entire json file
-        for (int i = 0; i < usersList.size(); i++) {
-            JSONObject users = (JSONObject) usersList.get(i);
-            log.info("Users -> " + users);//This prints every block - one json object
-            JSONObject user = (JSONObject) users.get("users");
-            log.info("User -> " + user); //This prints each data in the block
-            projectName = (String) user.get("project");
-            AssetType = (String) user.get("assettype");
-            AssetNumber = (String) user.get("assetnumber");
-            AssetNo = (String) user.get("assetno");
-            ScrollDown = (String) user.get("scrolldown");
-            ExtensionNumber = (String) user.get("extensionnumber");
-            Location = (String) user.get("location");
-            DeskNumber = (String) user.get("desknumber");
-            Hostname = (String) user.get("hostname");
-            Remark = (String) user.get("remark");
+        // typecasting obj to JSONObject
+        JSONObject jsonObject = (JSONObject) obj;
+
+       String projectName = JsonRead.getValue(jsonObject, "project");
+       String AssetType = JsonRead.getValue(jsonObject, "assettype");
+       String AssetNumber = JsonRead.getValue(jsonObject, "assetnumber");
+       String AssetNo = JsonRead.getValue(jsonObject, "assetno");
+       String ExtensionNumber = JsonRead.getValue(jsonObject, "extensionnumber");
+       String Location = JsonRead.getValue(jsonObject, "location");
+       String DeskNumber = JsonRead.getValue(jsonObject, "desknumber");
+       String Hostname = JsonRead.getValue(jsonObject, "hostname");
+       String Remark = JsonRead.getValue(jsonObject, "remark");
 
 
-        }
-        DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         CommonActions.selectDropDownValue(projectname, "value", projectName);
         CommonActions.selectDropDownValue(assetType, "value", AssetType);
         CommonActions.selectDropDownValue(assetNumber, "value", AssetNumber);
         CommonActions.sendKeysWebElement(assetNo, AssetNo);
         CommonActions.sendKeysWebElement(extensionNumber, ExtensionNumber);
-        CommonActions.scrollDown(ScrollDown);
+        CommonActions.scrollDown("window.scrollBy(0, 430)");
         CommonActions.selectDropDownValue(location, "value", Location);
         CommonActions.sendKeysWebElement(deskNumber, DeskNumber);
         CommonActions.sendKeysWebElement(hostname, Hostname);
         CommonActions.sendKeysWebElement(remark, Remark);
-        CommonActions.scrollDown(ScrollDown);
+        CommonActions.scrollDown("window.scrollBy(0, 430)");
     }
 
     /* This method is used to accept the terms and conditions before submitting request */
