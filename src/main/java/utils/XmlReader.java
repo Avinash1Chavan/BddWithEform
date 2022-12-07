@@ -58,7 +58,7 @@ public class XmlReader {
     }
 
     public static void  XmlReader() throws IOException, ParserConfigurationException, SAXException {
-        File xmlFile = new File(System.getProperty("user.dir") + "/src/main/java/utils/student.xml");
+        File xmlFile = new File(System.getProperty("user.dir") + "/src/test/resources/student.xml");
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document doc = builder.parse(xmlFile);
