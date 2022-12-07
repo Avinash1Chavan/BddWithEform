@@ -13,6 +13,7 @@ import org.testng.annotations.DataProvider;
         features = {"src/test/resources/features"},
         glue = {"apphooks", "stepdefinations"},
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+        //tags = "@Regression"
 )
 /*This class is used to achieve parallel execution */
 public class Runner extends AbstractTestNGCucumberTests {

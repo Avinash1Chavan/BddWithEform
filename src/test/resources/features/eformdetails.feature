@@ -1,3 +1,4 @@
+
 Feature: Eform Details
 
   Background: Successfully Login
@@ -17,10 +18,11 @@ Feature: Eform Details
     When user enter required detail
     And User accept terms and conditions
     And User Click Submit button
-    Then User gets eform number
+    Then User get eform number
 
+    @Regression
   Scenario: Successfully view status
     When user clicks on View Status button
     And user fills E-formNo
-    And user clicks on Submit button
+    And user clicks Submit button
     And verify status

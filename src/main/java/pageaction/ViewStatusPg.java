@@ -19,8 +19,6 @@ public class ViewStatusPg {
     /* initializing the page objects */
     public ViewStatusPg(WebDriver rDriver) {
         driver = rDriver;
-
-        PageFactory.initElements(rDriver, this);
     }
 
     /* it's finding menu element in eform Application */
@@ -60,8 +58,8 @@ public class ViewStatusPg {
     }
 
     /* This method is used for enter the eform number in text box */
-    public void EnterEformNO() {
-        eform.sendKeys("325582");
+    public void EnterEformNO() throws InterruptedException {
+        CommonActions.sendKeysWebElement(eform,"325582");
     }
 
     /* This method is used for click submit button*/
