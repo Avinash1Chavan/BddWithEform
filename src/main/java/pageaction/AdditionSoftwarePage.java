@@ -120,7 +120,7 @@ public class AdditionSoftwarePage {
     public void enterRequireDetails() throws InterruptedException, IOException, ParseException {
 
         // parsing file "JSONExample.json"
-        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/main/java/utils/Data.json"));
+        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/test/resources/Data.json"));
 
         // typecasting obj to JSONObject
         JSONObject jsonObject = (JSONObject) obj;
@@ -171,7 +171,7 @@ public class AdditionSoftwarePage {
         String Remark = "";
         String ScrollDown = "";
         // parsing file "JSONExample.json"
-        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/main/java/utils/Data.json"));
+        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/test/resources/Data.json"));
 
         // typecasting obj to JSONObject
         JSONObject jsonObject = (JSONObject) obj;

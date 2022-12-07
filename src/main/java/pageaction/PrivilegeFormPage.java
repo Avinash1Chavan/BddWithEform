@@ -96,7 +96,7 @@ public class PrivilegeFormPage {
     /* This method is used to select respective project name and fill required details */
     public void enterRequireDetails() throws InterruptedException, IOException, ParseException {
         // parsing file "JSONExample.json"
-        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/main/java/utils/Data.json"));
+        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/test/resources/Data.json"));
 
         // typecasting obj to JSONObject
         JSONObject jsonObject = (JSONObject) obj;
