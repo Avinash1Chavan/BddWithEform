@@ -1,769 +1,717 @@
-2022-12-05 13:05:42,188  INFO [TestNG-PoolService-2] DriverFactory:25 - browser name is: chrome
-2022-12-05 13:05:42,188  INFO [TestNG-PoolService-0] DriverFactory:25 - browser name is: chrome
-2022-12-05 13:05:42,188  INFO [TestNG-PoolService-1] DriverFactory:25 - browser name is: chrome
-2022-12-05 13:05:57,418  INFO [TestNG-PoolService-0] Mystepdef:45 - ****************************** Starting test cases execution  *****************************************
-2022-12-05 13:05:57,439  INFO [TestNG-PoolService-0] XmlReader:52 - 2
-2022-12-05 13:05:57,440  INFO [TestNG-PoolService-0] XmlReader:53 - Alex
-2022-12-05 13:05:57,493  INFO [TestNG-PoolService-1] Mystepdef:45 - ****************************** Starting test cases execution  *****************************************
-2022-12-05 13:05:57,503  INFO [TestNG-PoolService-1] XmlReader:52 - 2
-2022-12-05 13:05:57,504  INFO [TestNG-PoolService-1] XmlReader:53 - Alex
-2022-12-05 13:05:57,503  INFO [TestNG-PoolService-2] Mystepdef:45 - ****************************** Starting test cases execution  *****************************************
-2022-12-05 13:05:57,510  INFO [TestNG-PoolService-2] XmlReader:52 - 2
-2022-12-05 13:05:57,511  INFO [TestNG-PoolService-2] XmlReader:53 - Alex
-2022-12-05 13:06:03,624  INFO [TestNG-PoolService-1] Mystepdef:60 - uname--sk57670
-2022-12-05 13:06:03,624  INFO [TestNG-PoolService-2] Mystepdef:60 - uname--sk57670
-2022-12-05 13:06:03,624  INFO [TestNG-PoolService-0] Mystepdef:60 - uname--sk57670
-2022-12-05 13:06:10,308  INFO [TestNG-PoolService-0] JsonRead:22 - AS_BFSI
-2022-12-05 13:06:10,311  INFO [TestNG-PoolService-0] JsonRead:22 - Application
-2022-12-05 13:06:10,312  INFO [TestNG-PoolService-0] JsonRead:22 - Z/IND42/S/LPC
-2022-12-05 13:06:10,313  INFO [TestNG-PoolService-0] JsonRead:22 - 6574
-2022-12-05 13:06:10,313  INFO [TestNG-PoolService-0] JsonRead:22 - window.scrollBy(0, 430)
-2022-12-05 13:06:10,314  INFO [TestNG-PoolService-0] JsonRead:22 - 0000
-2022-12-05 13:06:10,314  INFO [TestNG-PoolService-0] JsonRead:22 - IND42-A1SLG/ZCBI
-2022-12-05 13:06:10,315  INFO [TestNG-PoolService-0] JsonRead:22 - 00
-2022-12-05 13:06:10,315  INFO [TestNG-PoolService-0] JsonRead:22 - PO1284784747
-2022-12-05 13:06:10,316  INFO [TestNG-PoolService-0] JsonRead:22 - 30/11/2022
-2022-12-05 13:06:10,316  INFO [TestNG-PoolService-0] JsonRead:22 - 3
-2022-12-05 13:06:10,317  INFO [TestNG-PoolService-0] JsonRead:22 - 1
-2022-12-05 13:06:10,317  INFO [TestNG-PoolService-0] JsonRead:22 - 192.168.9.0
-2022-12-05 13:06:11,091  INFO [TestNG-PoolService-1] JsonRead:22 - AS_BFSI
-2022-12-05 13:06:11,091  INFO [TestNG-PoolService-1] JsonRead:22 - Desktop
-2022-12-05 13:06:11,094  INFO [TestNG-PoolService-1] JsonRead:22 - Z/IND42/S/LPC
-2022-12-05 13:06:11,095  INFO [TestNG-PoolService-1] JsonRead:22 - 6574
-2022-12-05 13:06:11,095  INFO [TestNG-PoolService-1] JsonRead:22 - window.scrollBy(0, 430)
-2022-12-05 13:06:11,096  INFO [TestNG-PoolService-1] JsonRead:22 - 0000
-2022-12-05 13:06:11,097  INFO [TestNG-PoolService-1] JsonRead:22 - IND42-A1SLG/ZCBI
-2022-12-05 13:06:11,097  INFO [TestNG-PoolService-1] JsonRead:22 - 00
-2022-12-05 13:06:11,097  INFO [TestNG-PoolService-1] JsonRead:22 - PO1284784747
-2022-12-05 13:06:11,098  INFO [TestNG-PoolService-1] JsonRead:22 - For project purpose
-2022-12-05 13:06:12,919  INFO [TestNG-PoolService-0] CommonActions:108 - pass the correct selection criteria
-2022-12-05 13:06:16,789  INFO [TestNG-PoolService-2] ViewStatusPg:76 - 
-2022-12-05 13:06:16,790  INFO [TestNG-PoolService-2] ViewStatusPg:80 - Eform status :EForm request is not yet Approved
-2022-12-05 13:06:23,612  INFO [TestNG-PoolService-0] JsonRead:22 - For project purpose
-2022-12-05 13:06:23,612  INFO [TestNG-PoolService-0] JsonRead:22 - window.scrollBy(0, 430)
-2022-12-05 13:06:26,115 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,117 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
-2022-12-05 13:06:26,119 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
-2022-12-05 13:06:26,120 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
-2022-12-05 13:06:26,120 DEBUG [main] cache:45 - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
-2022-12-05 13:06:26,218 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,218 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
-2022-12-05 13:06:26,219 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
-2022-12-05 13:06:26,220 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
-2022-12-05 13:06:26,220 DEBUG [main] cache:45 - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
-2022-12-05 13:06:26,355 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,356 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
-2022-12-05 13:06:26,357 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
-2022-12-05 13:06:26,358 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
-2022-12-05 13:06:26,358 DEBUG [main] cache:45 - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
-2022-12-05 13:06:26,365 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,366 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
-2022-12-05 13:06:26,366 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
-2022-12-05 13:06:26,367 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
-2022-12-05 13:06:26,368 DEBUG [main] cache:45 - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
-2022-12-05 13:06:26,370 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,371 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
-2022-12-05 13:06:26,372 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
-2022-12-05 13:06:26,375 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
-2022-12-05 13:06:26,376 DEBUG [main] cache:45 - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
-2022-12-05 13:06:26,379 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,380 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
-2022-12-05 13:06:26,381 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
-2022-12-05 13:06:26,382 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
-2022-12-05 13:06:26,383 DEBUG [main] cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
-2022-12-05 13:06:26,390 DEBUG [main] cache:45 - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
-2022-12-05 13:06:26,390 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,391 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
-2022-12-05 13:06:26,392 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
-2022-12-05 13:06:26,393 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
-2022-12-05 13:06:26,394 DEBUG [main] cache:45 - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
-2022-12-05 13:06:26,404 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,405 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
-2022-12-05 13:06:26,406 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
-2022-12-05 13:06:26,407 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
-2022-12-05 13:06:26,407 DEBUG [main] cache:45 - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
-2022-12-05 13:06:26,416 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,418 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
-2022-12-05 13:06:26,426 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
-2022-12-05 13:06:26,428 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
-2022-12-05 13:06:26,429 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
-2022-12-05 13:06:26,431 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,431 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
-2022-12-05 13:06:26,432 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
-2022-12-05 13:06:26,433 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
-2022-12-05 13:06:26,434 DEBUG [main] cache:45 - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
-2022-12-05 13:06:26,441 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,442 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
-2022-12-05 13:06:26,442 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
-2022-12-05 13:06:26,443 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
-2022-12-05 13:06:26,444 DEBUG [main] cache:45 - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
-2022-12-05 13:06:26,481 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,482 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
-2022-12-05 13:06:26,483 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
-2022-12-05 13:06:26,485 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
-2022-12-05 13:06:26,486 DEBUG [main] cache:45 - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
-2022-12-05 13:06:26,502 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/bdd-content.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,503 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en_US.ftl"): Not found
-2022-12-05 13:06:26,503 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en.ftl"): Not found
-2022-12-05 13:06:26,504 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content.ftl"): Found
-2022-12-05 13:06:26,504 DEBUG [main] cache:45 - Loading template for "spark/partials/bdd-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/bdd-content.ftl"
-2022-12-05 13:06:26,535 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,536 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
-2022-12-05 13:06:26,537 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
-2022-12-05 13:06:26,538 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
-2022-12-05 13:06:26,538 DEBUG [main] cache:45 - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
-2022-12-05 13:06:26,540 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,541 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_US.ftl"): Not found
-2022-12-05 13:06:26,542 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
-2022-12-05 13:06:26,548 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
-2022-12-05 13:06:26,549 DEBUG [main] cache:45 - Loading template for "spark/partials/category.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
-2022-12-05 13:06:26,551 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,551 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_US.ftl"): Not found
-2022-12-05 13:06:26,552 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
-2022-12-05 13:06:26,553 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
-2022-12-05 13:06:26,553 DEBUG [main] cache:45 - Loading template for "spark/partials/device.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
-2022-12-05 13:06:26,555 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,555 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_US.ftl"): Not found
-2022-12-05 13:06:26,556 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
-2022-12-05 13:06:26,557 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
-2022-12-05 13:06:26,557 DEBUG [main] cache:45 - Loading template for "spark/partials/author.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
-2022-12-05 13:06:26,558 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,559 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
-2022-12-05 13:06:26,560 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
-2022-12-05 13:06:26,561 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
-2022-12-05 13:06:26,562 DEBUG [main] cache:45 - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
-2022-12-05 13:06:26,563 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,564 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
-2022-12-05 13:06:26,565 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
-2022-12-05 13:06:26,565 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
-2022-12-05 13:06:26,565 DEBUG [main] cache:45 - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
-2022-12-05 13:06:26,614 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,615 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
-2022-12-05 13:06:26,620 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
-2022-12-05 13:06:26,622 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
-2022-12-05 13:06:26,622 DEBUG [main] cache:45 - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
-2022-12-05 13:06:26,624 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
-2022-12-05 13:06:26,626 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
-2022-12-05 13:06:26,645 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
-2022-12-05 13:06:26,646 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
-2022-12-05 13:06:26,649 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/AC67129/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
-2022-12-05 13:06:27,056 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,059 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,059 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,060 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,060 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,113 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,113 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,114 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,114 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,114 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,131 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,131 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,131 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,132 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,132 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,147 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,148 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,152 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,152 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,153 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,414 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,415 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,416 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,416 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:27,416 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
-2022-12-05 13:06:28,121 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514fix.fon
-2022-12-05 13:06:28,122 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514fixe.fon
-2022-12-05 13:06:28,122 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514fixg.fon
-2022-12-05 13:06:28,123 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514fixr.fon
-2022-12-05 13:06:28,123 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514fixt.fon
-2022-12-05 13:06:28,123 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514oem.fon
-2022-12-05 13:06:28,123 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514oeme.fon
-2022-12-05 13:06:28,124 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514oemg.fon
-2022-12-05 13:06:28,125 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514oemr.fon
-2022-12-05 13:06:28,125 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514oemt.fon
-2022-12-05 13:06:28,126 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514sys.fon
-2022-12-05 13:06:28,126 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514syse.fon
-2022-12-05 13:06:28,126 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514sysg.fon
-2022-12-05 13:06:28,126 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514sysr.fon
-2022-12-05 13:06:28,127 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\8514syst.fon
-2022-12-05 13:06:28,127 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\85775.fon
-2022-12-05 13:06:28,127 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\85855.fon
-2022-12-05 13:06:28,128 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\85f1255.fon
-2022-12-05 13:06:28,128 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\85f1256.fon
-2022-12-05 13:06:28,128 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\85f1257.fon
-2022-12-05 13:06:28,128 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\85f874.fon
-2022-12-05 13:06:28,129 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\85s1255.fon
-2022-12-05 13:06:28,129 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\85s1256.fon
-2022-12-05 13:06:28,129 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\85s1257.fon
-2022-12-05 13:06:28,129 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\85s874.fon
-2022-12-05 13:06:28,130 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\app775.fon
-2022-12-05 13:06:28,130 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\app850.fon
-2022-12-05 13:06:28,130 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\app852.fon
-2022-12-05 13:06:28,131 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\app855.fon
-2022-12-05 13:06:28,131 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\app857.fon
-2022-12-05 13:06:28,131 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\app866.fon
-2022-12-05 13:06:28,131 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\app932.fon
-2022-12-05 13:06:28,131 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\app936.fon
-2022-12-05 13:06:28,132 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\app949.fon
-2022-12-05 13:06:28,132 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\app950.fon
-2022-12-05 13:06:28,132 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\arial.ttf
-2022-12-05 13:06:28,132 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\arial.ttf
-2022-12-05 13:06:28,133 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\arialbd.ttf
-2022-12-05 13:06:28,133 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\arialbd.ttf
-2022-12-05 13:06:28,133 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\arialbi.ttf
-2022-12-05 13:06:28,134 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\arialbi.ttf
-2022-12-05 13:06:28,134 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ariali.ttf
-2022-12-05 13:06:28,134 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\ariali.ttf
-2022-12-05 13:06:28,134 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ariblk.ttf
-2022-12-05 13:06:28,134 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\ariblk.ttf
-2022-12-05 13:06:28,135 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\bahnschrift.ttf
-2022-12-05 13:06:28,135 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\bahnschrift.ttf
-2022-12-05 13:06:28,135 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\c8514fix.fon
-2022-12-05 13:06:28,135 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\c8514oem.fon
-2022-12-05 13:06:28,136 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\c8514sys.fon
-2022-12-05 13:06:28,136 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Caladea-Bold.ttf
-2022-12-05 13:06:28,136 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Caladea-Bold.ttf
-2022-12-05 13:06:28,136 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Caladea-BoldItalic.ttf
-2022-12-05 13:06:28,136 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Caladea-BoldItalic.ttf
-2022-12-05 13:06:28,137 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Caladea-Italic.ttf
-2022-12-05 13:06:28,137 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Caladea-Italic.ttf
-2022-12-05 13:06:28,137 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Caladea-Regular.ttf
-2022-12-05 13:06:28,137 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Caladea-Regular.ttf
-2022-12-05 13:06:28,138 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\calibri.ttf
-2022-12-05 13:06:28,138 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\calibri.ttf
-2022-12-05 13:06:28,138 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\calibrib.ttf
-2022-12-05 13:06:28,138 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\calibrib.ttf
-2022-12-05 13:06:28,138 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\calibrii.ttf
-2022-12-05 13:06:28,139 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\calibrii.ttf
-2022-12-05 13:06:28,139 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\calibril.ttf
-2022-12-05 13:06:28,139 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\calibril.ttf
-2022-12-05 13:06:28,139 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\calibrili.ttf
-2022-12-05 13:06:28,140 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\calibrili.ttf
-2022-12-05 13:06:28,140 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\calibriz.ttf
-2022-12-05 13:06:28,140 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\calibriz.ttf
-2022-12-05 13:06:28,140 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cambria.ttc
-2022-12-05 13:06:28,141 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\cambria.ttc
-2022-12-05 13:06:28,141 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cambriab.ttf
-2022-12-05 13:06:28,141 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\cambriab.ttf
-2022-12-05 13:06:28,142 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cambriai.ttf
-2022-12-05 13:06:28,142 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\cambriai.ttf
-2022-12-05 13:06:28,143 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cambriaz.ttf
-2022-12-05 13:06:28,143 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\cambriaz.ttf
-2022-12-05 13:06:28,143 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Candara.ttf
-2022-12-05 13:06:28,144 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Candara.ttf
-2022-12-05 13:06:28,144 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Candarab.ttf
-2022-12-05 13:06:28,144 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Candarab.ttf
-2022-12-05 13:06:28,145 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Candarai.ttf
-2022-12-05 13:06:28,145 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Candarai.ttf
-2022-12-05 13:06:28,145 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Candaral.ttf
-2022-12-05 13:06:28,145 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Candaral.ttf
-2022-12-05 13:06:28,146 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Candarali.ttf
-2022-12-05 13:06:28,146 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Candarali.ttf
-2022-12-05 13:06:28,146 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Candaraz.ttf
-2022-12-05 13:06:28,146 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Candaraz.ttf
-2022-12-05 13:06:28,146 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Carlito-Bold.ttf
-2022-12-05 13:06:28,146 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Carlito-Bold.ttf
-2022-12-05 13:06:28,146 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Carlito-BoldItalic.ttf
-2022-12-05 13:06:28,147 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Carlito-BoldItalic.ttf
-2022-12-05 13:06:28,148 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Carlito-Italic.ttf
-2022-12-05 13:06:28,148 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Carlito-Italic.ttf
-2022-12-05 13:06:28,148 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Carlito-Regular.ttf
-2022-12-05 13:06:28,148 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Carlito-Regular.ttf
-2022-12-05 13:06:28,149 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\CascadiaCode.ttf
-2022-12-05 13:06:28,149 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\CascadiaCode.ttf
-2022-12-05 13:06:28,149 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\CascadiaMono.ttf
-2022-12-05 13:06:28,149 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\CascadiaMono.ttf
-2022-12-05 13:06:28,149 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga40737.fon
-2022-12-05 13:06:28,149 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga40850.fon
-2022-12-05 13:06:28,150 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga40852.fon
-2022-12-05 13:06:28,150 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga40857.fon
-2022-12-05 13:06:28,150 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga40866.fon
-2022-12-05 13:06:28,150 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga40869.fon
-2022-12-05 13:06:28,150 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga40woa.fon
-2022-12-05 13:06:28,151 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga80737.fon
-2022-12-05 13:06:28,151 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga80850.fon
-2022-12-05 13:06:28,151 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga80852.fon
-2022-12-05 13:06:28,152 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga80857.fon
-2022-12-05 13:06:28,152 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga80866.fon
-2022-12-05 13:06:28,152 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga80869.fon
-2022-12-05 13:06:28,152 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cga80woa.fon
-2022-12-05 13:06:28,152 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\comic.ttf
-2022-12-05 13:06:28,153 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\comic.ttf
-2022-12-05 13:06:28,153 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\comicbd.ttf
-2022-12-05 13:06:28,153 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\comicbd.ttf
-2022-12-05 13:06:28,153 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\comici.ttf
-2022-12-05 13:06:28,154 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\comici.ttf
-2022-12-05 13:06:28,154 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\comicz.ttf
-2022-12-05 13:06:28,154 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\comicz.ttf
-2022-12-05 13:06:28,154 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\consola.ttf
-2022-12-05 13:06:28,155 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\consola.ttf
-2022-12-05 13:06:28,155 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\consolab.ttf
-2022-12-05 13:06:28,156 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\consolab.ttf
-2022-12-05 13:06:28,156 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\consolai.ttf
-2022-12-05 13:06:28,156 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\consolai.ttf
-2022-12-05 13:06:28,156 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\consolaz.ttf
-2022-12-05 13:06:28,156 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\consolaz.ttf
-2022-12-05 13:06:28,157 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\constan.ttf
-2022-12-05 13:06:28,157 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\constan.ttf
-2022-12-05 13:06:28,157 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\constanb.ttf
-2022-12-05 13:06:28,157 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\constanb.ttf
-2022-12-05 13:06:28,157 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\constani.ttf
-2022-12-05 13:06:28,157 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\constani.ttf
-2022-12-05 13:06:28,157 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\constanz.ttf
-2022-12-05 13:06:28,158 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\constanz.ttf
-2022-12-05 13:06:28,158 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\corbel.ttf
-2022-12-05 13:06:28,158 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\corbel.ttf
-2022-12-05 13:06:28,158 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\corbelb.ttf
-2022-12-05 13:06:28,158 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\corbelb.ttf
-2022-12-05 13:06:28,158 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\corbeli.ttf
-2022-12-05 13:06:28,158 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\corbeli.ttf
-2022-12-05 13:06:28,158 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\corbell.ttf
-2022-12-05 13:06:28,159 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\corbell.ttf
-2022-12-05 13:06:28,159 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\corbelli.ttf
-2022-12-05 13:06:28,159 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\corbelli.ttf
-2022-12-05 13:06:28,159 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\corbelz.ttf
-2022-12-05 13:06:28,159 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\corbelz.ttf
-2022-12-05 13:06:28,159 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\coue1255.fon
-2022-12-05 13:06:28,159 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\coue1256.fon
-2022-12-05 13:06:28,160 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\coue1257.fon
-2022-12-05 13:06:28,160 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\couf1255.fon
-2022-12-05 13:06:28,160 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\couf1256.fon
-2022-12-05 13:06:28,161 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\couf1257.fon
-2022-12-05 13:06:28,161 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cour.ttf
-2022-12-05 13:06:28,161 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\cour.ttf
-2022-12-05 13:06:28,161 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\courbd.ttf
-2022-12-05 13:06:28,161 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\courbd.ttf
-2022-12-05 13:06:28,161 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\courbi.ttf
-2022-12-05 13:06:28,161 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\courbi.ttf
-2022-12-05 13:06:28,162 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\coure.fon
-2022-12-05 13:06:28,162 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\couree.fon
-2022-12-05 13:06:28,162 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\coureg.fon
-2022-12-05 13:06:28,163 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\courer.fon
-2022-12-05 13:06:28,163 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\couret.fon
-2022-12-05 13:06:28,163 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\courf.fon
-2022-12-05 13:06:28,163 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\courfe.fon
-2022-12-05 13:06:28,164 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\courfg.fon
-2022-12-05 13:06:28,164 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\courfr.fon
-2022-12-05 13:06:28,164 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\courft.fon
-2022-12-05 13:06:28,164 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\couri.ttf
-2022-12-05 13:06:28,164 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\couri.ttf
-2022-12-05 13:06:28,165 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cvgafix.fon
-2022-12-05 13:06:28,165 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\cvgasys.fon
-2022-12-05 13:06:28,165 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSans-Bold.ttf
-2022-12-05 13:06:28,165 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSans-Bold.ttf
-2022-12-05 13:06:28,166 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSans-BoldOblique.ttf
-2022-12-05 13:06:28,166 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSans-BoldOblique.ttf
-2022-12-05 13:06:28,166 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSans-ExtraLight.ttf
-2022-12-05 13:06:28,166 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSans-ExtraLight.ttf
-2022-12-05 13:06:28,166 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSans-Oblique.ttf
-2022-12-05 13:06:28,166 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSans-Oblique.ttf
-2022-12-05 13:06:28,167 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSans.ttf
-2022-12-05 13:06:28,167 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSans.ttf
-2022-12-05 13:06:28,167 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSansCondensed-Bold.ttf
-2022-12-05 13:06:28,168 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSansCondensed-Bold.ttf
-2022-12-05 13:06:28,168 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSansCondensed-BoldOblique.ttf
-2022-12-05 13:06:28,168 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSansCondensed-BoldOblique.ttf
-2022-12-05 13:06:28,168 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSansCondensed-Oblique.ttf
-2022-12-05 13:06:28,169 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSansCondensed-Oblique.ttf
-2022-12-05 13:06:28,169 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSansCondensed.ttf
-2022-12-05 13:06:28,169 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSansCondensed.ttf
-2022-12-05 13:06:28,170 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSansMono-Bold.ttf
-2022-12-05 13:06:28,171 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSansMono-Bold.ttf
-2022-12-05 13:06:28,171 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSansMono-BoldOblique.ttf
-2022-12-05 13:06:28,171 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSansMono-BoldOblique.ttf
-2022-12-05 13:06:28,171 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSansMono-Oblique.ttf
-2022-12-05 13:06:28,171 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSansMono-Oblique.ttf
-2022-12-05 13:06:28,171 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSansMono.ttf
-2022-12-05 13:06:28,171 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSansMono.ttf
-2022-12-05 13:06:28,172 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSerif-Bold.ttf
-2022-12-05 13:06:28,172 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSerif-Bold.ttf
-2022-12-05 13:06:28,173 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSerif-BoldItalic.ttf
-2022-12-05 13:06:28,173 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSerif-BoldItalic.ttf
-2022-12-05 13:06:28,173 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSerif-Italic.ttf
-2022-12-05 13:06:28,173 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSerif-Italic.ttf
-2022-12-05 13:06:28,173 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSerif.ttf
-2022-12-05 13:06:28,174 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSerif.ttf
-2022-12-05 13:06:28,174 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSerifCondensed-Bold.ttf
-2022-12-05 13:06:28,174 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSerifCondensed-Bold.ttf
-2022-12-05 13:06:28,174 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSerifCondensed-BoldItalic.ttf
-2022-12-05 13:06:28,175 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSerifCondensed-BoldItalic.ttf
-2022-12-05 13:06:28,175 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSerifCondensed-Italic.ttf
-2022-12-05 13:06:28,175 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSerifCondensed-Italic.ttf
-2022-12-05 13:06:28,175 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\DejaVuSerifCondensed.ttf
-2022-12-05 13:06:28,176 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\DejaVuSerifCondensed.ttf
-2022-12-05 13:06:28,176 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\desktop.ini
-2022-12-05 13:06:28,177 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\dos737.fon
-2022-12-05 13:06:28,177 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\dos869.fon
-2022-12-05 13:06:28,177 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\dosapp.fon
-2022-12-05 13:06:28,177 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ebrima.ttf
-2022-12-05 13:06:28,178 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\ebrima.ttf
-2022-12-05 13:06:28,178 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ebrimabd.ttf
-2022-12-05 13:06:28,178 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\ebrimabd.ttf
-2022-12-05 13:06:28,179 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega40737.fon
-2022-12-05 13:06:28,179 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega40850.fon
-2022-12-05 13:06:28,179 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega40852.fon
-2022-12-05 13:06:28,179 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega40857.fon
-2022-12-05 13:06:28,179 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega40866.fon
-2022-12-05 13:06:28,180 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega40869.fon
-2022-12-05 13:06:28,180 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega40woa.fon
-2022-12-05 13:06:28,180 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega80737.fon
-2022-12-05 13:06:28,181 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega80850.fon
-2022-12-05 13:06:28,181 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega80852.fon
-2022-12-05 13:06:28,181 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega80857.fon
-2022-12-05 13:06:28,181 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega80866.fon
-2022-12-05 13:06:28,181 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega80869.fon
-2022-12-05 13:06:28,181 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ega80woa.fon
-2022-12-05 13:06:28,181 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\fms_metadata.xml
-2022-12-05 13:06:28,182 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\framd.ttf
-2022-12-05 13:06:28,182 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\framd.ttf
-2022-12-05 13:06:28,182 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\framdit.ttf
-2022-12-05 13:06:28,182 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\framdit.ttf
-2022-12-05 13:06:28,182 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Gabriola.ttf
-2022-12-05 13:06:28,182 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Gabriola.ttf
-2022-12-05 13:06:28,183 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\gadugi.ttf
-2022-12-05 13:06:28,183 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\gadugi.ttf
-2022-12-05 13:06:28,183 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\gadugib.ttf
-2022-12-05 13:06:28,183 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\gadugib.ttf
-2022-12-05 13:06:28,184 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GenBasB.ttf
-2022-12-05 13:06:28,184 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\GenBasB.ttf
-2022-12-05 13:06:28,184 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GenBasBI.ttf
-2022-12-05 13:06:28,184 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\GenBasBI.ttf
-2022-12-05 13:06:28,185 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GenBasI.ttf
-2022-12-05 13:06:28,186 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\GenBasI.ttf
-2022-12-05 13:06:28,186 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GenBasR.ttf
-2022-12-05 13:06:28,186 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\GenBasR.ttf
-2022-12-05 13:06:28,186 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GenBkBasB.ttf
-2022-12-05 13:06:28,186 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\GenBkBasB.ttf
-2022-12-05 13:06:28,186 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GenBkBasBI.ttf
-2022-12-05 13:06:28,187 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\GenBkBasBI.ttf
-2022-12-05 13:06:28,187 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GenBkBasI.ttf
-2022-12-05 13:06:28,188 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\GenBkBasI.ttf
-2022-12-05 13:06:28,188 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GenBkBasR.ttf
-2022-12-05 13:06:28,188 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\GenBkBasR.ttf
-2022-12-05 13:06:28,188 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\georgia.ttf
-2022-12-05 13:06:28,188 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\georgia.ttf
-2022-12-05 13:06:28,189 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\georgiab.ttf
-2022-12-05 13:06:28,189 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\georgiab.ttf
-2022-12-05 13:06:28,189 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\georgiai.ttf
-2022-12-05 13:06:28,189 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\georgiai.ttf
-2022-12-05 13:06:28,190 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\georgiaz.ttf
-2022-12-05 13:06:28,190 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\georgiaz.ttf
-2022-12-05 13:06:28,190 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GlobalMonospace.CompositeFont
-2022-12-05 13:06:28,191 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GlobalSansSerif.CompositeFont
-2022-12-05 13:06:28,191 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GlobalSerif.CompositeFont
-2022-12-05 13:06:28,192 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\GlobalUserInterface.CompositeFont
-2022-12-05 13:06:28,192 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\h8514fix.fon
-2022-12-05 13:06:28,192 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\h8514oem.fon
-2022-12-05 13:06:28,192 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\h8514sys.fon
-2022-12-05 13:06:28,193 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\himalaya.ttf
-2022-12-05 13:06:28,193 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\himalaya.ttf
-2022-12-05 13:06:28,194 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\holomdl2.ttf
-2022-12-05 13:06:28,194 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\holomdl2.ttf
-2022-12-05 13:06:28,195 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\hvgafix.fon
-2022-12-05 13:06:28,195 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\hvgasys.fon
-2022-12-05 13:06:28,195 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\impact.ttf
-2022-12-05 13:06:28,195 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\impact.ttf
-2022-12-05 13:06:28,196 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Inkfree.ttf
-2022-12-05 13:06:28,196 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Inkfree.ttf
-2022-12-05 13:06:28,196 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\j8514fix.fon
-2022-12-05 13:06:28,196 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\j8514oem.fon
-2022-12-05 13:06:28,197 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\j8514sys.fon
-2022-12-05 13:06:28,197 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\javatext.ttf
-2022-12-05 13:06:28,197 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\javatext.ttf
-2022-12-05 13:06:28,197 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\jsmalle.fon
-2022-12-05 13:06:28,197 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\jsmallf.fon
-2022-12-05 13:06:28,198 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\jvgafix.fon
-2022-12-05 13:06:28,198 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\jvgasys.fon
-2022-12-05 13:06:28,198 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\LeelaUIb.ttf
-2022-12-05 13:06:28,198 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\LeelaUIb.ttf
-2022-12-05 13:06:28,199 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\LeelawUI.ttf
-2022-12-05 13:06:28,199 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\LeelawUI.ttf
-2022-12-05 13:06:28,199 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\LeelUIsl.ttf
-2022-12-05 13:06:28,199 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\LeelUIsl.ttf
-2022-12-05 13:06:28,199 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\lucon.ttf
-2022-12-05 13:06:28,199 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\lucon.ttf
-2022-12-05 13:06:28,200 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\l_10646.ttf
-2022-12-05 13:06:28,200 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\l_10646.ttf
-2022-12-05 13:06:28,200 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\malgun.ttf
-2022-12-05 13:06:28,200 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\malgun.ttf
-2022-12-05 13:06:28,202 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\malgunbd.ttf
-2022-12-05 13:06:28,202 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\malgunbd.ttf
-2022-12-05 13:06:28,202 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\malgunsl.ttf
-2022-12-05 13:06:28,202 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\malgunsl.ttf
-2022-12-05 13:06:28,203 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\marlett.ttf
-2022-12-05 13:06:28,204 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\marlett.ttf
-2022-12-05 13:06:28,204 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\micross.ttf
-2022-12-05 13:06:28,204 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\micross.ttf
-2022-12-05 13:06:28,204 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\mingliub.ttc
-2022-12-05 13:06:28,204 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\mingliub.ttc
-2022-12-05 13:06:28,205 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\mmrtext.ttf
-2022-12-05 13:06:28,205 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\mmrtext.ttf
-2022-12-05 13:06:28,205 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\mmrtextb.ttf
-2022-12-05 13:06:28,205 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\mmrtextb.ttf
-2022-12-05 13:06:28,206 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\modern.fon
-2022-12-05 13:06:28,206 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\monbaiti.ttf
-2022-12-05 13:06:28,206 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\monbaiti.ttf
-2022-12-05 13:06:28,206 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\msgothic.ttc
-2022-12-05 13:06:28,207 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\msgothic.ttc
-2022-12-05 13:06:28,207 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\msjh.ttc
-2022-12-05 13:06:28,207 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\msjh.ttc
-2022-12-05 13:06:28,207 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\msjhbd.ttc
-2022-12-05 13:06:28,207 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\msjhbd.ttc
-2022-12-05 13:06:28,208 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\msjhl.ttc
-2022-12-05 13:06:28,208 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\msjhl.ttc
-2022-12-05 13:06:28,208 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\msyh.ttc
-2022-12-05 13:06:28,208 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\msyh.ttc
-2022-12-05 13:06:28,209 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\msyhbd.ttc
-2022-12-05 13:06:28,209 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\msyhbd.ttc
-2022-12-05 13:06:28,209 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\msyhl.ttc
-2022-12-05 13:06:28,209 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\msyhl.ttc
-2022-12-05 13:06:28,209 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\msyi.ttf
-2022-12-05 13:06:28,210 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\msyi.ttf
-2022-12-05 13:06:28,210 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\mvboli.ttf
-2022-12-05 13:06:28,211 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\mvboli.ttf
-2022-12-05 13:06:28,211 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Nirmala.ttf
-2022-12-05 13:06:28,211 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Nirmala.ttf
-2022-12-05 13:06:28,211 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\NirmalaB.ttf
-2022-12-05 13:06:28,212 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\NirmalaB.ttf
-2022-12-05 13:06:28,212 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\NirmalaS.ttf
-2022-12-05 13:06:28,212 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\NirmalaS.ttf
-2022-12-05 13:06:28,212 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ntailu.ttf
-2022-12-05 13:06:28,213 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\ntailu.ttf
-2022-12-05 13:06:28,213 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ntailub.ttf
-2022-12-05 13:06:28,213 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\ntailub.ttf
-2022-12-05 13:06:28,213 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\opens___.ttf
-2022-12-05 13:06:28,213 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\opens___.ttf
-2022-12-05 13:06:28,214 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\pala.ttf
-2022-12-05 13:06:28,214 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\pala.ttf
-2022-12-05 13:06:28,214 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\palab.ttf
-2022-12-05 13:06:28,214 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\palab.ttf
-2022-12-05 13:06:28,215 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\palabi.ttf
-2022-12-05 13:06:28,215 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\palabi.ttf
-2022-12-05 13:06:28,215 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\palai.ttf
-2022-12-05 13:06:28,215 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\palai.ttf
-2022-12-05 13:06:28,215 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\phagspa.ttf
-2022-12-05 13:06:28,216 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\phagspa.ttf
-2022-12-05 13:06:28,217 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\phagspab.ttf
-2022-12-05 13:06:28,217 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\phagspab.ttf
-2022-12-05 13:06:28,217 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\roman.fon
-2022-12-05 13:06:28,218 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\s8514fix.fon
-2022-12-05 13:06:28,218 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\s8514oem.fon
-2022-12-05 13:06:28,219 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\s8514sys.fon
-2022-12-05 13:06:28,219 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\script.fon
-2022-12-05 13:06:28,219 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\segmdl2.ttf
-2022-12-05 13:06:28,219 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\segmdl2.ttf
-2022-12-05 13:06:28,220 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\segoepr.ttf
-2022-12-05 13:06:28,220 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\segoepr.ttf
-2022-12-05 13:06:28,221 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\segoeprb.ttf
-2022-12-05 13:06:28,221 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\segoeprb.ttf
-2022-12-05 13:06:28,222 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\segoesc.ttf
-2022-12-05 13:06:28,222 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\segoesc.ttf
-2022-12-05 13:06:28,222 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\segoescb.ttf
-2022-12-05 13:06:28,222 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\segoescb.ttf
-2022-12-05 13:06:28,222 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\segoeui.ttf
-2022-12-05 13:06:28,222 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\segoeui.ttf
-2022-12-05 13:06:28,222 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\segoeuib.ttf
-2022-12-05 13:06:28,222 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\segoeuib.ttf
-2022-12-05 13:06:28,223 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\segoeuii.ttf
-2022-12-05 13:06:28,223 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\segoeuii.ttf
-2022-12-05 13:06:28,223 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\segoeuil.ttf
-2022-12-05 13:06:28,223 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\segoeuil.ttf
-2022-12-05 13:06:28,224 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\segoeuisl.ttf
-2022-12-05 13:06:28,224 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\segoeuisl.ttf
-2022-12-05 13:06:28,224 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\segoeuiz.ttf
-2022-12-05 13:06:28,224 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\segoeuiz.ttf
-2022-12-05 13:06:28,224 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seguibl.ttf
-2022-12-05 13:06:28,225 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\seguibl.ttf
-2022-12-05 13:06:28,225 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seguibli.ttf
-2022-12-05 13:06:28,225 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\seguibli.ttf
-2022-12-05 13:06:28,226 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seguiemj.ttf
-2022-12-05 13:06:28,226 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\seguiemj.ttf
-2022-12-05 13:06:28,226 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seguihis.ttf
-2022-12-05 13:06:28,226 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\seguihis.ttf
-2022-12-05 13:06:28,227 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seguili.ttf
-2022-12-05 13:06:28,227 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\seguili.ttf
-2022-12-05 13:06:28,227 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seguisb.ttf
-2022-12-05 13:06:28,227 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\seguisb.ttf
-2022-12-05 13:06:28,227 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seguisbi.ttf
-2022-12-05 13:06:28,227 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\seguisbi.ttf
-2022-12-05 13:06:28,228 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seguisli.ttf
-2022-12-05 13:06:28,228 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\seguisli.ttf
-2022-12-05 13:06:28,228 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seguisym.ttf
-2022-12-05 13:06:28,229 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\seguisym.ttf
-2022-12-05 13:06:28,229 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sere1255.fon
-2022-12-05 13:06:28,229 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sere1256.fon
-2022-12-05 13:06:28,229 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sere1257.fon
-2022-12-05 13:06:28,229 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\serf1255.fon
-2022-12-05 13:06:28,229 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\serf1256.fon
-2022-12-05 13:06:28,229 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\serf1257.fon
-2022-12-05 13:06:28,230 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\serife.fon
-2022-12-05 13:06:28,230 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\serifee.fon
-2022-12-05 13:06:28,230 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\serifeg.fon
-2022-12-05 13:06:28,231 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\serifer.fon
-2022-12-05 13:06:28,231 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\serifet.fon
-2022-12-05 13:06:28,231 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seriff.fon
-2022-12-05 13:06:28,231 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seriffe.fon
-2022-12-05 13:06:28,232 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seriffg.fon
-2022-12-05 13:06:28,232 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\seriffr.fon
-2022-12-05 13:06:28,232 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\serifft.fon
-2022-12-05 13:06:28,233 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\simsun.ttc
-2022-12-05 13:06:28,233 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\simsun.ttc
-2022-12-05 13:06:28,233 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\simsunb.ttf
-2022-12-05 13:06:28,233 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\simsunb.ttf
-2022-12-05 13:06:28,233 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\Sitka.ttc
-2022-12-05 13:06:28,234 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\Sitka.ttc
-2022-12-05 13:06:28,234 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\SitkaB.ttc
-2022-12-05 13:06:28,234 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\SitkaB.ttc
-2022-12-05 13:06:28,234 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\SitkaI.ttc
-2022-12-05 13:06:28,235 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\SitkaI.ttc
-2022-12-05 13:06:28,235 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\SitkaZ.ttc
-2022-12-05 13:06:28,235 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\SitkaZ.ttc
-2022-12-05 13:06:28,236 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smae1255.fon
-2022-12-05 13:06:28,236 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smae1256.fon
-2022-12-05 13:06:28,236 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smae1257.fon
-2022-12-05 13:06:28,237 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smaf1255.fon
-2022-12-05 13:06:28,237 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smaf1256.fon
-2022-12-05 13:06:28,237 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smaf1257.fon
-2022-12-05 13:06:28,237 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smalle.fon
-2022-12-05 13:06:28,237 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smallee.fon
-2022-12-05 13:06:28,237 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smalleg.fon
-2022-12-05 13:06:28,238 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smaller.fon
-2022-12-05 13:06:28,238 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smallet.fon
-2022-12-05 13:06:28,239 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smallf.fon
-2022-12-05 13:06:28,239 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smallfe.fon
-2022-12-05 13:06:28,239 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smallfg.fon
-2022-12-05 13:06:28,239 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smallfr.fon
-2022-12-05 13:06:28,239 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\smallft.fon
-2022-12-05 13:06:28,240 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ssee1255.fon
-2022-12-05 13:06:28,240 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ssee1256.fon
-2022-12-05 13:06:28,240 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ssee1257.fon
-2022-12-05 13:06:28,240 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ssee874.fon
-2022-12-05 13:06:28,240 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ssef1255.fon
-2022-12-05 13:06:28,240 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ssef1256.fon
-2022-12-05 13:06:28,241 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ssef1257.fon
-2022-12-05 13:06:28,241 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\ssef874.fon
-2022-12-05 13:06:28,241 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sserife.fon
-2022-12-05 13:06:28,242 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sserifee.fon
-2022-12-05 13:06:28,242 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sserifeg.fon
-2022-12-05 13:06:28,242 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sserifer.fon
-2022-12-05 13:06:28,242 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sserifet.fon
-2022-12-05 13:06:28,242 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sseriff.fon
-2022-12-05 13:06:28,242 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sseriffe.fon
-2022-12-05 13:06:28,242 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sseriffg.fon
-2022-12-05 13:06:28,243 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sseriffr.fon
-2022-12-05 13:06:28,243 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sserifft.fon
-2022-12-05 13:06:28,243 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\StaticCache.dat
-2022-12-05 13:06:28,243 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\svgafix.fon
-2022-12-05 13:06:28,243 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\svgasys.fon
-2022-12-05 13:06:28,244 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\sylfaen.ttf
-2022-12-05 13:06:28,244 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\sylfaen.ttf
-2022-12-05 13:06:28,244 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\symbol.ttf
-2022-12-05 13:06:28,244 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\symbol.ttf
-2022-12-05 13:06:28,244 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\tahoma.ttf
-2022-12-05 13:06:28,244 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\tahoma.ttf
-2022-12-05 13:06:28,245 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\tahomabd.ttf
-2022-12-05 13:06:28,245 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\tahomabd.ttf
-2022-12-05 13:06:28,245 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\taile.ttf
-2022-12-05 13:06:28,245 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\taile.ttf
-2022-12-05 13:06:28,246 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\taileb.ttf
-2022-12-05 13:06:28,246 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\taileb.ttf
-2022-12-05 13:06:28,246 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\times.ttf
-2022-12-05 13:06:28,246 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\times.ttf
-2022-12-05 13:06:28,247 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\timesbd.ttf
-2022-12-05 13:06:28,247 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\timesbd.ttf
-2022-12-05 13:06:28,247 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\timesbi.ttf
-2022-12-05 13:06:28,247 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\timesbi.ttf
-2022-12-05 13:06:28,248 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\timesi.ttf
-2022-12-05 13:06:28,248 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\timesi.ttf
-2022-12-05 13:06:28,248 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\trebuc.ttf
-2022-12-05 13:06:28,249 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\trebuc.ttf
-2022-12-05 13:06:28,249 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\trebucbd.ttf
-2022-12-05 13:06:28,249 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\trebucbd.ttf
-2022-12-05 13:06:28,249 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\trebucbi.ttf
-2022-12-05 13:06:28,249 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\trebucbi.ttf
-2022-12-05 13:06:28,249 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\trebucit.ttf
-2022-12-05 13:06:28,249 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\trebucit.ttf
-2022-12-05 13:06:28,249 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\verdana.ttf
-2022-12-05 13:06:28,249 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\verdana.ttf
-2022-12-05 13:06:28,249 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\verdanab.ttf
-2022-12-05 13:06:28,249 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\verdanab.ttf
-2022-12-05 13:06:28,251 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\verdanai.ttf
-2022-12-05 13:06:28,251 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\verdanai.ttf
-2022-12-05 13:06:28,251 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\verdanaz.ttf
-2022-12-05 13:06:28,251 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\verdanaz.ttf
-2022-12-05 13:06:28,251 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga737.fon
-2022-12-05 13:06:28,252 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga775.fon
-2022-12-05 13:06:28,252 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga850.fon
-2022-12-05 13:06:28,252 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga852.fon
-2022-12-05 13:06:28,252 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga855.fon
-2022-12-05 13:06:28,253 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga857.fon
-2022-12-05 13:06:28,253 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga860.fon
-2022-12-05 13:06:28,253 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga861.fon
-2022-12-05 13:06:28,253 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga863.fon
-2022-12-05 13:06:28,253 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga865.fon
-2022-12-05 13:06:28,254 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga866.fon
-2022-12-05 13:06:28,254 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga869.fon
-2022-12-05 13:06:28,254 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga932.fon
-2022-12-05 13:06:28,254 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga936.fon
-2022-12-05 13:06:28,255 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga949.fon
-2022-12-05 13:06:28,255 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vga950.fon
-2022-12-05 13:06:28,255 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgaf1255.fon
-2022-12-05 13:06:28,255 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgaf1256.fon
-2022-12-05 13:06:28,256 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgaf1257.fon
-2022-12-05 13:06:28,256 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgaf874.fon
-2022-12-05 13:06:28,256 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgafix.fon
-2022-12-05 13:06:28,256 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgafixe.fon
-2022-12-05 13:06:28,256 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgafixg.fon
-2022-12-05 13:06:28,257 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgafixr.fon
-2022-12-05 13:06:28,257 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgafixt.fon
-2022-12-05 13:06:28,257 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgaoem.fon
-2022-12-05 13:06:28,257 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgas1255.fon
-2022-12-05 13:06:28,258 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgas1256.fon
-2022-12-05 13:06:28,258 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgas1257.fon
-2022-12-05 13:06:28,258 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgas874.fon
-2022-12-05 13:06:28,258 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgasys.fon
-2022-12-05 13:06:28,258 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgasyse.fon
-2022-12-05 13:06:28,258 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgasysg.fon
-2022-12-05 13:06:28,258 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgasysr.fon
-2022-12-05 13:06:28,258 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\vgasyst.fon
-2022-12-05 13:06:28,259 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\webdings.ttf
-2022-12-05 13:06:28,259 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\webdings.ttf
-2022-12-05 13:06:28,259 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\wingding.ttf
-2022-12-05 13:06:28,259 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\wingding.ttf
-2022-12-05 13:06:28,259 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\YuGothB.ttc
-2022-12-05 13:06:28,259 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\YuGothB.ttc
-2022-12-05 13:06:28,261 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\YuGothL.ttc
-2022-12-05 13:06:28,261 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\YuGothL.ttc
-2022-12-05 13:06:28,261 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\YuGothM.ttc
-2022-12-05 13:06:28,261 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\YuGothM.ttc
-2022-12-05 13:06:28,261 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\Windows\FONTS\YuGothR.ttc
-2022-12-05 13:06:28,261 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\Windows\FONTS\YuGothR.ttc
-2022-12-05 13:06:28,280 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPSMT') returns TimesNewRomanPSMT (TTF, mac: 0x0, os/2: 0x105, cid: null) C:\Windows\FONTS\times.ttf
-2022-12-05 13:06:28,288 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPSMT from C:\Windows\FONTS\times.ttf
-2022-12-05 13:06:28,296 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-BoldMT') returns TimesNewRomanPS-BoldMT (TTF, mac: 0x1, os/2: 0x105, cid: null) C:\Windows\FONTS\timesbd.ttf
-2022-12-05 13:06:28,299 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPS-BoldMT from C:\Windows\FONTS\timesbd.ttf
-2022-12-05 13:06:28,303 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-ItalicMT') returns TimesNewRomanPS-ItalicMT (TTF, mac: 0x2, os/2: 0x105, cid: null) C:\Windows\FONTS\timesi.ttf
-2022-12-05 13:06:28,305 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPS-ItalicMT from C:\Windows\FONTS\timesi.ttf
-2022-12-05 13:06:28,310 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-BoldItalicMT') returns TimesNewRomanPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x105, cid: null) C:\Windows\FONTS\timesbi.ttf
-2022-12-05 13:06:28,314 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPS-BoldItalicMT from C:\Windows\FONTS\timesbi.ttf
-2022-12-05 13:06:28,318 DEBUG [main] FontMapperImpl:484 - getFont('TTF','ArialMT') returns ArialMT (TTF, mac: 0x0, os/2: 0x805, cid: null) C:\Windows\FONTS\arial.ttf
-2022-12-05 13:06:28,320 DEBUG [main] FileSystemFontProvider:198 - Loaded ArialMT from C:\Windows\FONTS\arial.ttf
-2022-12-05 13:06:28,326 DEBUG [main] FontMapperImpl:484 - getFont('TTF','Arial-BoldMT') returns Arial-BoldMT (TTF, mac: 0x1, os/2: 0x805, cid: null) C:\Windows\FONTS\arialbd.ttf
-2022-12-05 13:06:28,330 DEBUG [main] FileSystemFontProvider:198 - Loaded Arial-BoldMT from C:\Windows\FONTS\arialbd.ttf
-2022-12-05 13:06:28,333 DEBUG [main] FontMapperImpl:484 - getFont('TTF','Arial-ItalicMT') returns Arial-ItalicMT (TTF, mac: 0x2, os/2: 0x805, cid: null) C:\Windows\FONTS\ariali.ttf
-2022-12-05 13:06:28,338 DEBUG [main] FileSystemFontProvider:198 - Loaded Arial-ItalicMT from C:\Windows\FONTS\ariali.ttf
-2022-12-05 13:06:28,341 DEBUG [main] FontMapperImpl:484 - getFont('TTF','Arial-BoldItalicMT') returns Arial-BoldItalicMT (TTF, mac: 0x3, os/2: 0x805, cid: null) C:\Windows\FONTS\arialbi.ttf
-2022-12-05 13:06:28,346 DEBUG [main] FileSystemFontProvider:198 - Loaded Arial-BoldItalicMT from C:\Windows\FONTS\arialbi.ttf
-2022-12-05 13:06:28,350 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPSMT') returns CourierNewPSMT (TTF, mac: 0x0, os/2: 0x505, cid: null) C:\Windows\FONTS\cour.ttf
-2022-12-05 13:06:28,353 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPSMT from C:\Windows\FONTS\cour.ttf
-2022-12-05 13:06:28,361 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPS-BoldMT') returns CourierNewPS-BoldMT (TTF, mac: 0x1, os/2: 0x505, cid: null) C:\Windows\FONTS\courbd.ttf
-2022-12-05 13:06:28,364 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPS-BoldMT from C:\Windows\FONTS\courbd.ttf
-2022-12-05 13:06:28,367 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPS-ItalicMT') returns CourierNewPS-ItalicMT (TTF, mac: 0x2, os/2: 0x505, cid: null) C:\Windows\FONTS\couri.ttf
-2022-12-05 13:06:28,370 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPS-ItalicMT from C:\Windows\FONTS\couri.ttf
-2022-12-05 13:06:28,373 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPS-BoldItalicMT') returns CourierNewPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x505, cid: null) C:\Windows\FONTS\courbi.ttf
-2022-12-05 13:06:28,376 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPS-BoldItalicMT from C:\Windows\FONTS\courbi.ttf
-2022-12-05 13:06:28,379 DEBUG [main] FontMapperImpl:484 - getFont('TTF','SymbolMT') returns SymbolMT (TTF, mac: 0x0, os/2: 0xc03, cid: null) C:\Windows\FONTS\symbol.ttf
-2022-12-05 13:06:28,382 DEBUG [main] FileSystemFontProvider:198 - Loaded SymbolMT from C:\Windows\FONTS\symbol.ttf
-2022-12-05 13:06:28,401 DEBUG [main] FontMapperImpl:484 - getFont('TTF','MS-Gothic') returns MS-Gothic (TTF, mac: 0x0, os/2: 0x801, cid: null) C:\Windows\FONTS\msgothic.ttc
-2022-12-05 13:06:28,409 DEBUG [main] FileSystemFontProvider:198 - Loaded MS-Gothic from C:\Windows\FONTS\msgothic.ttc
+2022-12-05 18:38:46,715  INFO [TestNG-PoolService-1] DriverFactory:25 - browser name is: chrome
+2022-12-05 18:38:46,715  INFO [TestNG-PoolService-2] DriverFactory:25 - browser name is: chrome
+2022-12-05 18:38:46,715  INFO [TestNG-PoolService-0] DriverFactory:25 - browser name is: chrome
+2022-12-05 18:38:50,785 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:50,789 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+2022-12-05 18:38:50,794 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2022-12-05 18:38:50,797 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2022-12-05 18:38:50,798 DEBUG [main] cache:45 - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2022-12-05 18:38:50,934 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:50,935 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+2022-12-05 18:38:50,937 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2022-12-05 18:38:50,938 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2022-12-05 18:38:50,939 DEBUG [main] cache:45 - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2022-12-05 18:38:51,168 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,168 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+2022-12-05 18:38:51,171 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2022-12-05 18:38:51,174 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2022-12-05 18:38:51,174 DEBUG [main] cache:45 - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2022-12-05 18:38:51,191 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,192 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+2022-12-05 18:38:51,193 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2022-12-05 18:38:51,195 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2022-12-05 18:38:51,195 DEBUG [main] cache:45 - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2022-12-05 18:38:51,197 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,202 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+2022-12-05 18:38:51,207 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2022-12-05 18:38:51,208 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2022-12-05 18:38:51,209 DEBUG [main] cache:45 - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2022-12-05 18:38:51,213 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,214 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+2022-12-05 18:38:51,214 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2022-12-05 18:38:51,217 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2022-12-05 18:38:51,218 DEBUG [main] cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2022-12-05 18:38:51,222 DEBUG [main] cache:45 - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-12-05 18:38:51,222 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,224 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+2022-12-05 18:38:51,226 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2022-12-05 18:38:51,227 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2022-12-05 18:38:51,227 DEBUG [main] cache:45 - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2022-12-05 18:38:51,246 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,248 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+2022-12-05 18:38:51,251 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2022-12-05 18:38:51,253 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2022-12-05 18:38:51,254 DEBUG [main] cache:45 - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2022-12-05 18:38:51,260 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,260 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+2022-12-05 18:38:51,265 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2022-12-05 18:38:51,266 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2022-12-05 18:38:51,267 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2022-12-05 18:38:51,269 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,270 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+2022-12-05 18:38:51,271 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2022-12-05 18:38:51,273 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2022-12-05 18:38:51,273 DEBUG [main] cache:45 - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2022-12-05 18:38:51,285 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,286 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+2022-12-05 18:38:51,287 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2022-12-05 18:38:51,289 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2022-12-05 18:38:51,289 DEBUG [main] cache:45 - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2022-12-05 18:38:51,314 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,315 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+2022-12-05 18:38:51,317 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2022-12-05 18:38:51,318 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2022-12-05 18:38:51,319 DEBUG [main] cache:45 - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2022-12-05 18:38:51,340 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/bdd-content.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,341 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en_US.ftl"): Not found
+2022-12-05 18:38:51,342 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content_en.ftl"): Not found
+2022-12-05 18:38:51,344 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/bdd-content.ftl"): Found
+2022-12-05 18:38:51,345 DEBUG [main] cache:45 - Loading template for "spark/partials/bdd-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/bdd-content.ftl"
+2022-12-05 18:38:51,376 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,378 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+2022-12-05 18:38:51,381 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2022-12-05 18:38:51,382 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2022-12-05 18:38:51,383 DEBUG [main] cache:45 - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2022-12-05 18:38:51,395 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,395 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_US.ftl"): Not found
+2022-12-05 18:38:51,397 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2022-12-05 18:38:51,398 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2022-12-05 18:38:51,399 DEBUG [main] cache:45 - Loading template for "spark/partials/category.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2022-12-05 18:38:51,401 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,402 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_US.ftl"): Not found
+2022-12-05 18:38:51,404 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2022-12-05 18:38:51,405 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2022-12-05 18:38:51,406 DEBUG [main] cache:45 - Loading template for "spark/partials/device.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2022-12-05 18:38:51,408 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,409 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_US.ftl"): Not found
+2022-12-05 18:38:51,411 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2022-12-05 18:38:51,412 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2022-12-05 18:38:51,413 DEBUG [main] cache:45 - Loading template for "spark/partials/author.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2022-12-05 18:38:51,415 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,418 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+2022-12-05 18:38:51,420 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2022-12-05 18:38:51,421 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2022-12-05 18:38:51,422 DEBUG [main] cache:45 - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2022-12-05 18:38:51,424 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,425 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+2022-12-05 18:38:51,426 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2022-12-05 18:38:51,428 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2022-12-05 18:38:51,428 DEBUG [main] cache:45 - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2022-12-05 18:38:51,492 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,492 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+2022-12-05 18:38:51,497 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2022-12-05 18:38:51,498 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2022-12-05 18:38:51,499 DEBUG [main] cache:45 - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2022-12-05 18:38:51,503 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
+2022-12-05 18:38:51,506 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+2022-12-05 18:38:51,508 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2022-12-05 18:38:51,510 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2022-12-05 18:38:51,510 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/as61837/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2022-12-05 18:38:51,841 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,841 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,842 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,842 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,842 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,885 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,886 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,886 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,887 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,887 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,898 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,898 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,898 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,898 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,899 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,912 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,914 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,914 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,915 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:51,915 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:52,138 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:52,140 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:52,141 DEBUG [main] GlyphSubstitutionTable:263 - Type 6 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:52,141 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:52,142 DEBUG [main] GlyphSubstitutionTable:263 - Type 4 GSUB lookup table is not supported and will be ignored
+2022-12-05 18:38:52,821 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fix.fon
+2022-12-05 18:38:52,822 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixe.fon
+2022-12-05 18:38:52,822 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixg.fon
+2022-12-05 18:38:52,823 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixr.fon
+2022-12-05 18:38:52,824 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514fixt.fon
+2022-12-05 18:38:52,824 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oem.fon
+2022-12-05 18:38:52,825 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oeme.fon
+2022-12-05 18:38:52,825 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oemg.fon
+2022-12-05 18:38:52,825 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oemr.fon
+2022-12-05 18:38:52,826 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514oemt.fon
+2022-12-05 18:38:52,826 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514sys.fon
+2022-12-05 18:38:52,826 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514syse.fon
+2022-12-05 18:38:52,827 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514sysg.fon
+2022-12-05 18:38:52,827 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514sysr.fon
+2022-12-05 18:38:52,827 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\8514syst.fon
+2022-12-05 18:38:52,828 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85775.fon
+2022-12-05 18:38:52,828 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85855.fon
+2022-12-05 18:38:52,829 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f1255.fon
+2022-12-05 18:38:52,829 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f1256.fon
+2022-12-05 18:38:52,831 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f1257.fon
+2022-12-05 18:38:52,831 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85f874.fon
+2022-12-05 18:38:52,832 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s1255.fon
+2022-12-05 18:38:52,832 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s1256.fon
+2022-12-05 18:38:52,832 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s1257.fon
+2022-12-05 18:38:52,833 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\85s874.fon
+2022-12-05 18:38:52,833 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app775.fon
+2022-12-05 18:38:52,833 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app850.fon
+2022-12-05 18:38:52,834 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app852.fon
+2022-12-05 18:38:52,834 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app855.fon
+2022-12-05 18:38:52,834 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app857.fon
+2022-12-05 18:38:52,835 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app866.fon
+2022-12-05 18:38:52,836 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app932.fon
+2022-12-05 18:38:52,836 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app936.fon
+2022-12-05 18:38:52,837 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app949.fon
+2022-12-05 18:38:52,837 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\app950.fon
+2022-12-05 18:38:52,838 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\arial.ttf
+2022-12-05 18:38:52,838 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\arial.ttf
+2022-12-05 18:38:52,839 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\arialbd.ttf
+2022-12-05 18:38:52,839 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\arialbd.ttf
+2022-12-05 18:38:52,839 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\arialbi.ttf
+2022-12-05 18:38:52,839 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\arialbi.ttf
+2022-12-05 18:38:52,841 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ariali.ttf
+2022-12-05 18:38:52,841 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ariali.ttf
+2022-12-05 18:38:52,841 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ariblk.ttf
+2022-12-05 18:38:52,842 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ariblk.ttf
+2022-12-05 18:38:52,842 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Arimo-Bold.ttf
+2022-12-05 18:38:52,842 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Arimo-Bold.ttf
+2022-12-05 18:38:52,842 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Arimo-BoldItalic.ttf
+2022-12-05 18:38:52,843 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Arimo-BoldItalic.ttf
+2022-12-05 18:38:52,843 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Arimo-Italic.ttf
+2022-12-05 18:38:52,843 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Arimo-Italic.ttf
+2022-12-05 18:38:52,844 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Arimo-Regular.ttf
+2022-12-05 18:38:52,844 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Arimo-Regular.ttf
+2022-12-05 18:38:52,844 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\bahnschrift.ttf
+2022-12-05 18:38:52,845 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\bahnschrift.ttf
+2022-12-05 18:38:52,845 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\c8514fix.fon
+2022-12-05 18:38:52,845 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\c8514oem.fon
+2022-12-05 18:38:52,846 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\c8514sys.fon
+2022-12-05 18:38:52,846 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibri.ttf
+2022-12-05 18:38:52,846 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibri.ttf
+2022-12-05 18:38:52,847 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibrib.ttf
+2022-12-05 18:38:52,847 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibrib.ttf
+2022-12-05 18:38:52,847 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibrii.ttf
+2022-12-05 18:38:52,847 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibrii.ttf
+2022-12-05 18:38:52,847 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibril.ttf
+2022-12-05 18:38:52,847 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibril.ttf
+2022-12-05 18:38:52,849 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibrili.ttf
+2022-12-05 18:38:52,849 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibrili.ttf
+2022-12-05 18:38:52,849 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\calibriz.ttf
+2022-12-05 18:38:52,850 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\calibriz.ttf
+2022-12-05 18:38:52,850 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambria.ttc
+2022-12-05 18:38:52,850 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambria.ttc
+2022-12-05 18:38:52,850 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambriab.ttf
+2022-12-05 18:38:52,850 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambriab.ttf
+2022-12-05 18:38:52,850 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambriai.ttf
+2022-12-05 18:38:52,850 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambriai.ttf
+2022-12-05 18:38:52,851 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cambriaz.ttf
+2022-12-05 18:38:52,851 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cambriaz.ttf
+2022-12-05 18:38:52,852 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candara.ttf
+2022-12-05 18:38:52,852 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candara.ttf
+2022-12-05 18:38:52,852 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candarab.ttf
+2022-12-05 18:38:52,853 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candarab.ttf
+2022-12-05 18:38:52,853 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candarai.ttf
+2022-12-05 18:38:52,853 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candarai.ttf
+2022-12-05 18:38:52,854 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candaral.ttf
+2022-12-05 18:38:52,854 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candaral.ttf
+2022-12-05 18:38:52,855 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candarali.ttf
+2022-12-05 18:38:52,855 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candarali.ttf
+2022-12-05 18:38:52,855 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Candaraz.ttf
+2022-12-05 18:38:52,856 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Candaraz.ttf
+2022-12-05 18:38:52,857 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40737.fon
+2022-12-05 18:38:52,857 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40850.fon
+2022-12-05 18:38:52,858 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40852.fon
+2022-12-05 18:38:52,858 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40857.fon
+2022-12-05 18:38:52,860 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40866.fon
+2022-12-05 18:38:52,860 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40869.fon
+2022-12-05 18:38:52,861 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga40woa.fon
+2022-12-05 18:38:52,861 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80737.fon
+2022-12-05 18:38:52,861 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80850.fon
+2022-12-05 18:38:52,861 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80852.fon
+2022-12-05 18:38:52,862 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80857.fon
+2022-12-05 18:38:52,862 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80866.fon
+2022-12-05 18:38:52,863 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80869.fon
+2022-12-05 18:38:52,863 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cga80woa.fon
+2022-12-05 18:38:52,863 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comic.ttf
+2022-12-05 18:38:52,863 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comic.ttf
+2022-12-05 18:38:52,864 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comicbd.ttf
+2022-12-05 18:38:52,864 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comicbd.ttf
+2022-12-05 18:38:52,864 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comici.ttf
+2022-12-05 18:38:52,864 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comici.ttf
+2022-12-05 18:38:52,865 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\comicz.ttf
+2022-12-05 18:38:52,865 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\comicz.ttf
+2022-12-05 18:38:52,865 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consola.ttf
+2022-12-05 18:38:52,866 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consola.ttf
+2022-12-05 18:38:52,866 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consolab.ttf
+2022-12-05 18:38:52,866 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consolab.ttf
+2022-12-05 18:38:52,867 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consolai.ttf
+2022-12-05 18:38:52,867 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consolai.ttf
+2022-12-05 18:38:52,867 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\consolaz.ttf
+2022-12-05 18:38:52,868 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\consolaz.ttf
+2022-12-05 18:38:52,869 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constan.ttf
+2022-12-05 18:38:52,869 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constan.ttf
+2022-12-05 18:38:52,869 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constanb.ttf
+2022-12-05 18:38:52,869 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constanb.ttf
+2022-12-05 18:38:52,870 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constani.ttf
+2022-12-05 18:38:52,870 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constani.ttf
+2022-12-05 18:38:52,870 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\constanz.ttf
+2022-12-05 18:38:52,870 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\constanz.ttf
+2022-12-05 18:38:52,871 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbel.ttf
+2022-12-05 18:38:52,871 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbel.ttf
+2022-12-05 18:38:52,871 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbelb.ttf
+2022-12-05 18:38:52,871 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbelb.ttf
+2022-12-05 18:38:52,872 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbeli.ttf
+2022-12-05 18:38:52,872 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbeli.ttf
+2022-12-05 18:38:52,873 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbell.ttf
+2022-12-05 18:38:52,873 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbell.ttf
+2022-12-05 18:38:52,873 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbelli.ttf
+2022-12-05 18:38:52,873 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbelli.ttf
+2022-12-05 18:38:52,874 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\corbelz.ttf
+2022-12-05 18:38:52,874 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\corbelz.ttf
+2022-12-05 18:38:52,874 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coue1255.fon
+2022-12-05 18:38:52,875 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coue1256.fon
+2022-12-05 18:38:52,875 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coue1257.fon
+2022-12-05 18:38:52,876 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couf1255.fon
+2022-12-05 18:38:52,876 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couf1256.fon
+2022-12-05 18:38:52,876 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couf1257.fon
+2022-12-05 18:38:52,878 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cour.ttf
+2022-12-05 18:38:52,878 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\cour.ttf
+2022-12-05 18:38:52,878 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courbd.ttf
+2022-12-05 18:38:52,878 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\courbd.ttf
+2022-12-05 18:38:52,878 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courbi.ttf
+2022-12-05 18:38:52,878 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\courbi.ttf
+2022-12-05 18:38:52,879 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coure.fon
+2022-12-05 18:38:52,879 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couree.fon
+2022-12-05 18:38:52,879 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\coureg.fon
+2022-12-05 18:38:52,880 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courer.fon
+2022-12-05 18:38:52,880 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couret.fon
+2022-12-05 18:38:52,880 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courf.fon
+2022-12-05 18:38:52,881 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courfe.fon
+2022-12-05 18:38:52,881 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courfg.fon
+2022-12-05 18:38:52,881 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courfr.fon
+2022-12-05 18:38:52,883 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\courft.fon
+2022-12-05 18:38:52,883 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\couri.ttf
+2022-12-05 18:38:52,883 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\couri.ttf
+2022-12-05 18:38:52,883 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cvgafix.fon
+2022-12-05 18:38:52,884 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\cvgasys.fon
+2022-12-05 18:38:52,884 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSans-Bold.ttf
+2022-12-05 18:38:52,884 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSans-Bold.ttf
+2022-12-05 18:38:52,885 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSans-BoldOblique.ttf
+2022-12-05 18:38:52,885 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSans-BoldOblique.ttf
+2022-12-05 18:38:52,885 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSans-ExtraLight.ttf
+2022-12-05 18:38:52,886 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSans-ExtraLight.ttf
+2022-12-05 18:38:52,886 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSans-Oblique.ttf
+2022-12-05 18:38:52,886 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSans-Oblique.ttf
+2022-12-05 18:38:52,887 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSans.ttf
+2022-12-05 18:38:52,887 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSans.ttf
+2022-12-05 18:38:52,887 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSansCondensed-Bold.ttf
+2022-12-05 18:38:52,887 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSansCondensed-Bold.ttf
+2022-12-05 18:38:52,888 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSansCondensed-BoldOblique.ttf
+2022-12-05 18:38:52,888 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSansCondensed-BoldOblique.ttf
+2022-12-05 18:38:52,888 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSansCondensed-Oblique.ttf
+2022-12-05 18:38:52,890 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSansCondensed-Oblique.ttf
+2022-12-05 18:38:52,890 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSansCondensed.ttf
+2022-12-05 18:38:52,890 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSansCondensed.ttf
+2022-12-05 18:38:52,891 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSansMono-Bold.ttf
+2022-12-05 18:38:52,891 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSansMono-Bold.ttf
+2022-12-05 18:38:52,891 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSansMono-BoldOblique.ttf
+2022-12-05 18:38:52,891 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSansMono-BoldOblique.ttf
+2022-12-05 18:38:52,892 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSansMono-Oblique.ttf
+2022-12-05 18:38:52,892 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSansMono-Oblique.ttf
+2022-12-05 18:38:52,892 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSansMono.ttf
+2022-12-05 18:38:52,892 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSansMono.ttf
+2022-12-05 18:38:52,893 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSerif-Bold.ttf
+2022-12-05 18:38:52,893 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSerif-Bold.ttf
+2022-12-05 18:38:52,893 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSerif-BoldItalic.ttf
+2022-12-05 18:38:52,893 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSerif-BoldItalic.ttf
+2022-12-05 18:38:52,894 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSerif-Italic.ttf
+2022-12-05 18:38:52,894 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSerif-Italic.ttf
+2022-12-05 18:38:52,894 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSerif.ttf
+2022-12-05 18:38:52,894 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSerif.ttf
+2022-12-05 18:38:52,895 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSerifCondensed-Bold.ttf
+2022-12-05 18:38:52,895 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSerifCondensed-Bold.ttf
+2022-12-05 18:38:52,895 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSerifCondensed-BoldItalic.ttf
+2022-12-05 18:38:52,895 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSerifCondensed-BoldItalic.ttf
+2022-12-05 18:38:52,895 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSerifCondensed-Italic.ttf
+2022-12-05 18:38:52,896 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSerifCondensed-Italic.ttf
+2022-12-05 18:38:52,896 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\DejaVuSerifCondensed.ttf
+2022-12-05 18:38:52,896 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\DejaVuSerifCondensed.ttf
+2022-12-05 18:38:52,896 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\desktop.ini
+2022-12-05 18:38:52,897 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\dos737.fon
+2022-12-05 18:38:52,897 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\dos869.fon
+2022-12-05 18:38:52,897 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\dosapp.fon
+2022-12-05 18:38:52,897 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ebrima.ttf
+2022-12-05 18:38:52,897 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ebrima.ttf
+2022-12-05 18:38:52,897 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ebrimabd.ttf
+2022-12-05 18:38:52,897 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ebrimabd.ttf
+2022-12-05 18:38:52,898 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40737.fon
+2022-12-05 18:38:52,899 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40850.fon
+2022-12-05 18:38:52,900 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40852.fon
+2022-12-05 18:38:52,901 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40857.fon
+2022-12-05 18:38:52,902 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40866.fon
+2022-12-05 18:38:52,903 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40869.fon
+2022-12-05 18:38:52,903 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega40woa.fon
+2022-12-05 18:38:52,904 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80737.fon
+2022-12-05 18:38:52,904 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80850.fon
+2022-12-05 18:38:52,906 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80852.fon
+2022-12-05 18:38:52,906 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80857.fon
+2022-12-05 18:38:52,906 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80866.fon
+2022-12-05 18:38:52,907 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80869.fon
+2022-12-05 18:38:52,907 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ega80woa.fon
+2022-12-05 18:38:52,907 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\fms_metadata.xml
+2022-12-05 18:38:52,907 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\framd.ttf
+2022-12-05 18:38:52,908 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\framd.ttf
+2022-12-05 18:38:52,908 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\framdit.ttf
+2022-12-05 18:38:52,908 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\framdit.ttf
+2022-12-05 18:38:52,909 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Gabriola.ttf
+2022-12-05 18:38:52,909 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Gabriola.ttf
+2022-12-05 18:38:52,909 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\gadugi.ttf
+2022-12-05 18:38:52,909 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\gadugi.ttf
+2022-12-05 18:38:52,910 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\gadugib.ttf
+2022-12-05 18:38:52,910 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\gadugib.ttf
+2022-12-05 18:38:52,910 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GenBasB.ttf
+2022-12-05 18:38:52,910 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GenBasB.ttf
+2022-12-05 18:38:52,911 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GenBasBI.ttf
+2022-12-05 18:38:52,911 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GenBasBI.ttf
+2022-12-05 18:38:52,911 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GenBasI.ttf
+2022-12-05 18:38:52,911 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GenBasI.ttf
+2022-12-05 18:38:52,912 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GenBasR.ttf
+2022-12-05 18:38:52,912 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GenBasR.ttf
+2022-12-05 18:38:52,912 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GenBkBasB.ttf
+2022-12-05 18:38:52,913 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GenBkBasB.ttf
+2022-12-05 18:38:52,913 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GenBkBasBI.ttf
+2022-12-05 18:38:52,913 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GenBkBasBI.ttf
+2022-12-05 18:38:52,913 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GenBkBasI.ttf
+2022-12-05 18:38:52,914 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GenBkBasI.ttf
+2022-12-05 18:38:52,915 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\GenBkBasR.ttf
+2022-12-05 18:38:52,915 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\GenBkBasR.ttf
+2022-12-05 18:38:52,916 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgia.ttf
+2022-12-05 18:38:52,916 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgia.ttf
+2022-12-05 18:38:52,917 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgiab.ttf
+2022-12-05 18:38:52,917 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgiab.ttf
+2022-12-05 18:38:52,918 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgiai.ttf
+2022-12-05 18:38:52,918 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgiai.ttf
+2022-12-05 18:38:52,918 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\georgiaz.ttf
+2022-12-05 18:38:52,919 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\georgiaz.ttf
+2022-12-05 18:38:52,919 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\h8514fix.fon
+2022-12-05 18:38:52,920 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\h8514oem.fon
+2022-12-05 18:38:52,920 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\h8514sys.fon
+2022-12-05 18:38:52,920 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\himalaya.ttf
+2022-12-05 18:38:52,920 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\himalaya.ttf
+2022-12-05 18:38:52,922 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\holomdl2.ttf
+2022-12-05 18:38:52,922 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\holomdl2.ttf
+2022-12-05 18:38:52,922 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\hvgafix.fon
+2022-12-05 18:38:52,923 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\hvgasys.fon
+2022-12-05 18:38:52,923 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\impact.ttf
+2022-12-05 18:38:52,923 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\impact.ttf
+2022-12-05 18:38:52,923 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Inkfree.ttf
+2022-12-05 18:38:52,923 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Inkfree.ttf
+2022-12-05 18:38:52,923 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\j8514fix.fon
+2022-12-05 18:38:52,924 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\j8514oem.fon
+2022-12-05 18:38:52,924 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\j8514sys.fon
+2022-12-05 18:38:52,925 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\javatext.ttf
+2022-12-05 18:38:52,926 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\javatext.ttf
+2022-12-05 18:38:52,926 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jsmalle.fon
+2022-12-05 18:38:52,926 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jsmallf.fon
+2022-12-05 18:38:52,927 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jvgafix.fon
+2022-12-05 18:38:52,927 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\jvgasys.fon
+2022-12-05 18:38:52,927 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LeelaUIb.ttf
+2022-12-05 18:38:52,927 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LeelaUIb.ttf
+2022-12-05 18:38:52,928 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LeelawUI.ttf
+2022-12-05 18:38:52,928 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LeelawUI.ttf
+2022-12-05 18:38:52,928 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\LeelUIsl.ttf
+2022-12-05 18:38:52,928 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\LeelUIsl.ttf
+2022-12-05 18:38:52,929 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\lucon.ttf
+2022-12-05 18:38:52,929 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\lucon.ttf
+2022-12-05 18:38:52,929 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\l_10646.ttf
+2022-12-05 18:38:52,929 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\l_10646.ttf
+2022-12-05 18:38:52,930 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\malgun.ttf
+2022-12-05 18:38:52,930 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\malgun.ttf
+2022-12-05 18:38:52,930 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\malgunbd.ttf
+2022-12-05 18:38:52,931 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\malgunbd.ttf
+2022-12-05 18:38:52,932 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\malgunsl.ttf
+2022-12-05 18:38:52,932 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\malgunsl.ttf
+2022-12-05 18:38:52,933 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\marlett.ttf
+2022-12-05 18:38:52,933 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\marlett.ttf
+2022-12-05 18:38:52,934 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\micross.ttf
+2022-12-05 18:38:52,934 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\micross.ttf
+2022-12-05 18:38:52,934 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mingliub.ttc
+2022-12-05 18:38:52,935 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mingliub.ttc
+2022-12-05 18:38:52,935 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mmrtext.ttf
+2022-12-05 18:38:52,935 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mmrtext.ttf
+2022-12-05 18:38:52,936 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mmrtextb.ttf
+2022-12-05 18:38:52,936 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mmrtextb.ttf
+2022-12-05 18:38:52,936 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\modern.fon
+2022-12-05 18:38:52,936 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\monbaiti.ttf
+2022-12-05 18:38:52,937 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\monbaiti.ttf
+2022-12-05 18:38:52,937 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msgothic.ttc
+2022-12-05 18:38:52,937 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msgothic.ttc
+2022-12-05 18:38:52,938 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msjh.ttc
+2022-12-05 18:38:52,938 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msjh.ttc
+2022-12-05 18:38:52,938 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msjhbd.ttc
+2022-12-05 18:38:52,938 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msjhbd.ttc
+2022-12-05 18:38:52,938 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msjhl.ttc
+2022-12-05 18:38:52,938 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msjhl.ttc
+2022-12-05 18:38:52,939 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyh.ttc
+2022-12-05 18:38:52,939 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyh.ttc
+2022-12-05 18:38:52,939 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyhbd.ttc
+2022-12-05 18:38:52,940 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyhbd.ttc
+2022-12-05 18:38:52,940 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyhl.ttc
+2022-12-05 18:38:52,940 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyhl.ttc
+2022-12-05 18:38:52,940 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\msyi.ttf
+2022-12-05 18:38:52,941 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\msyi.ttf
+2022-12-05 18:38:52,941 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\MuseoForDell-Bold.ttf
+2022-12-05 18:38:52,941 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\MuseoForDell-Bold.ttf
+2022-12-05 18:38:52,942 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\MuseoForDell-Regular.ttf
+2022-12-05 18:38:52,942 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\MuseoForDell-Regular.ttf
+2022-12-05 18:38:52,942 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\mvboli.ttf
+2022-12-05 18:38:52,942 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\mvboli.ttf
+2022-12-05 18:38:52,942 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Nirmala.ttf
+2022-12-05 18:38:52,943 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Nirmala.ttf
+2022-12-05 18:38:52,944 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\NirmalaB.ttf
+2022-12-05 18:38:52,944 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\NirmalaB.ttf
+2022-12-05 18:38:52,944 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\NirmalaS.ttf
+2022-12-05 18:38:52,944 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\NirmalaS.ttf
+2022-12-05 18:38:52,945 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ntailu.ttf
+2022-12-05 18:38:52,945 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ntailu.ttf
+2022-12-05 18:38:52,945 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ntailub.ttf
+2022-12-05 18:38:52,945 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\ntailub.ttf
+2022-12-05 18:38:52,946 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\opens___.ttf
+2022-12-05 18:38:52,946 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\opens___.ttf
+2022-12-05 18:38:52,946 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\pala.ttf
+2022-12-05 18:38:52,946 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\pala.ttf
+2022-12-05 18:38:52,947 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\palab.ttf
+2022-12-05 18:38:52,947 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\palab.ttf
+2022-12-05 18:38:52,948 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\palabi.ttf
+2022-12-05 18:38:52,948 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\palabi.ttf
+2022-12-05 18:38:52,949 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\palai.ttf
+2022-12-05 18:38:52,949 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\palai.ttf
+2022-12-05 18:38:52,950 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\phagspa.ttf
+2022-12-05 18:38:52,950 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\phagspa.ttf
+2022-12-05 18:38:52,950 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\phagspab.ttf
+2022-12-05 18:38:52,950 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\phagspab.ttf
+2022-12-05 18:38:52,950 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\roman.fon
+2022-12-05 18:38:52,950 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\s8514fix.fon
+2022-12-05 18:38:52,952 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\s8514oem.fon
+2022-12-05 18:38:52,952 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\s8514sys.fon
+2022-12-05 18:38:52,952 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\script.fon
+2022-12-05 18:38:52,953 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segmdl2.ttf
+2022-12-05 18:38:52,953 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segmdl2.ttf
+2022-12-05 18:38:52,953 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoepr.ttf
+2022-12-05 18:38:52,954 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoepr.ttf
+2022-12-05 18:38:52,954 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeprb.ttf
+2022-12-05 18:38:52,955 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeprb.ttf
+2022-12-05 18:38:52,955 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoesc.ttf
+2022-12-05 18:38:52,956 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoesc.ttf
+2022-12-05 18:38:52,956 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoescb.ttf
+2022-12-05 18:38:52,956 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoescb.ttf
+2022-12-05 18:38:52,957 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeui.ttf
+2022-12-05 18:38:52,957 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeui.ttf
+2022-12-05 18:38:52,957 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuib.ttf
+2022-12-05 18:38:52,958 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuib.ttf
+2022-12-05 18:38:52,958 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuii.ttf
+2022-12-05 18:38:52,959 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuii.ttf
+2022-12-05 18:38:52,959 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuil.ttf
+2022-12-05 18:38:52,959 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuil.ttf
+2022-12-05 18:38:52,961 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuisl.ttf
+2022-12-05 18:38:52,961 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuisl.ttf
+2022-12-05 18:38:52,962 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\segoeuiz.ttf
+2022-12-05 18:38:52,962 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\segoeuiz.ttf
+2022-12-05 18:38:52,962 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguibl.ttf
+2022-12-05 18:38:52,963 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguibl.ttf
+2022-12-05 18:38:52,963 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguibli.ttf
+2022-12-05 18:38:52,963 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguibli.ttf
+2022-12-05 18:38:52,964 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguiemj.ttf
+2022-12-05 18:38:52,964 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguiemj.ttf
+2022-12-05 18:38:52,965 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguihis.ttf
+2022-12-05 18:38:52,965 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguihis.ttf
+2022-12-05 18:38:52,966 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguili.ttf
+2022-12-05 18:38:52,966 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguili.ttf
+2022-12-05 18:38:52,967 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisb.ttf
+2022-12-05 18:38:52,967 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisb.ttf
+2022-12-05 18:38:52,967 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisbi.ttf
+2022-12-05 18:38:52,967 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisbi.ttf
+2022-12-05 18:38:52,967 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisli.ttf
+2022-12-05 18:38:52,967 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisli.ttf
+2022-12-05 18:38:52,967 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seguisym.ttf
+2022-12-05 18:38:52,967 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\seguisym.ttf
+2022-12-05 18:38:52,971 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sere1255.fon
+2022-12-05 18:38:52,972 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sere1256.fon
+2022-12-05 18:38:52,972 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sere1257.fon
+2022-12-05 18:38:52,972 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serf1255.fon
+2022-12-05 18:38:52,975 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serf1256.fon
+2022-12-05 18:38:52,975 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serf1257.fon
+2022-12-05 18:38:52,976 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serife.fon
+2022-12-05 18:38:52,976 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifee.fon
+2022-12-05 18:38:52,976 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifeg.fon
+2022-12-05 18:38:52,976 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifer.fon
+2022-12-05 18:38:52,978 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifet.fon
+2022-12-05 18:38:52,978 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriff.fon
+2022-12-05 18:38:52,980 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriffe.fon
+2022-12-05 18:38:52,981 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriffg.fon
+2022-12-05 18:38:52,982 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\seriffr.fon
+2022-12-05 18:38:52,982 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\serifft.fon
+2022-12-05 18:38:52,983 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\simsun.ttc
+2022-12-05 18:38:52,983 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\simsun.ttc
+2022-12-05 18:38:52,984 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\simsunb.ttf
+2022-12-05 18:38:52,984 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\simsunb.ttf
+2022-12-05 18:38:52,985 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\Sitka.ttc
+2022-12-05 18:38:52,985 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\Sitka.ttc
+2022-12-05 18:38:52,985 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SitkaB.ttc
+2022-12-05 18:38:52,985 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SitkaB.ttc
+2022-12-05 18:38:52,985 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SitkaI.ttc
+2022-12-05 18:38:52,986 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SitkaI.ttc
+2022-12-05 18:38:52,986 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\SitkaZ.ttc
+2022-12-05 18:38:52,986 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\SitkaZ.ttc
+2022-12-05 18:38:52,986 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smae1255.fon
+2022-12-05 18:38:52,988 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smae1256.fon
+2022-12-05 18:38:52,989 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smae1257.fon
+2022-12-05 18:38:52,989 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaf1255.fon
+2022-12-05 18:38:52,990 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaf1256.fon
+2022-12-05 18:38:52,990 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaf1257.fon
+2022-12-05 18:38:52,991 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smalle.fon
+2022-12-05 18:38:52,992 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallee.fon
+2022-12-05 18:38:52,992 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smalleg.fon
+2022-12-05 18:38:52,993 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smaller.fon
+2022-12-05 18:38:52,993 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallet.fon
+2022-12-05 18:38:52,993 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallf.fon
+2022-12-05 18:38:52,994 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallfe.fon
+2022-12-05 18:38:52,995 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallfg.fon
+2022-12-05 18:38:52,995 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallfr.fon
+2022-12-05 18:38:52,995 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\smallft.fon
+2022-12-05 18:38:52,996 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee1255.fon
+2022-12-05 18:38:52,996 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee1256.fon
+2022-12-05 18:38:52,996 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee1257.fon
+2022-12-05 18:38:52,997 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssee874.fon
+2022-12-05 18:38:52,997 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef1255.fon
+2022-12-05 18:38:52,998 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef1256.fon
+2022-12-05 18:38:52,999 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef1257.fon
+2022-12-05 18:38:52,999 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\ssef874.fon
+2022-12-05 18:38:52,999 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserife.fon
+2022-12-05 18:38:53,000 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifee.fon
+2022-12-05 18:38:53,000 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifeg.fon
+2022-12-05 18:38:53,001 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifer.fon
+2022-12-05 18:38:53,001 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifet.fon
+2022-12-05 18:38:53,002 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriff.fon
+2022-12-05 18:38:53,003 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriffe.fon
+2022-12-05 18:38:53,003 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriffg.fon
+2022-12-05 18:38:53,004 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sseriffr.fon
+2022-12-05 18:38:53,004 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sserifft.fon
+2022-12-05 18:38:53,004 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\StaticCache.dat
+2022-12-05 18:38:53,004 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\svgafix.fon
+2022-12-05 18:38:53,005 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\svgasys.fon
+2022-12-05 18:38:53,005 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\sylfaen.ttf
+2022-12-05 18:38:53,005 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\sylfaen.ttf
+2022-12-05 18:38:53,005 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\symbol.ttf
+2022-12-05 18:38:53,005 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\symbol.ttf
+2022-12-05 18:38:53,006 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\tahoma.ttf
+2022-12-05 18:38:53,006 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\tahoma.ttf
+2022-12-05 18:38:53,007 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\tahomabd.ttf
+2022-12-05 18:38:53,007 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\tahomabd.ttf
+2022-12-05 18:38:53,007 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\taile.ttf
+2022-12-05 18:38:53,007 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\taile.ttf
+2022-12-05 18:38:53,008 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\taileb.ttf
+2022-12-05 18:38:53,008 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\taileb.ttf
+2022-12-05 18:38:53,008 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\times.ttf
+2022-12-05 18:38:53,008 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\times.ttf
+2022-12-05 18:38:53,009 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\timesbd.ttf
+2022-12-05 18:38:53,009 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\timesbd.ttf
+2022-12-05 18:38:53,010 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\timesbi.ttf
+2022-12-05 18:38:53,010 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\timesbi.ttf
+2022-12-05 18:38:53,011 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\timesi.ttf
+2022-12-05 18:38:53,011 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\timesi.ttf
+2022-12-05 18:38:53,012 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebuc.ttf
+2022-12-05 18:38:53,012 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebuc.ttf
+2022-12-05 18:38:53,013 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebucbd.ttf
+2022-12-05 18:38:53,013 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebucbd.ttf
+2022-12-05 18:38:53,014 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebucbi.ttf
+2022-12-05 18:38:53,015 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebucbi.ttf
+2022-12-05 18:38:53,015 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\trebucit.ttf
+2022-12-05 18:38:53,016 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\trebucit.ttf
+2022-12-05 18:38:53,016 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdana.ttf
+2022-12-05 18:38:53,016 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdana.ttf
+2022-12-05 18:38:53,017 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdanab.ttf
+2022-12-05 18:38:53,017 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdanab.ttf
+2022-12-05 18:38:53,017 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdanai.ttf
+2022-12-05 18:38:53,017 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdanai.ttf
+2022-12-05 18:38:53,018 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\verdanaz.ttf
+2022-12-05 18:38:53,018 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\verdanaz.ttf
+2022-12-05 18:38:53,018 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga737.fon
+2022-12-05 18:38:53,019 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga775.fon
+2022-12-05 18:38:53,020 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga850.fon
+2022-12-05 18:38:53,020 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga852.fon
+2022-12-05 18:38:53,020 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga855.fon
+2022-12-05 18:38:53,021 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga857.fon
+2022-12-05 18:38:53,021 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga860.fon
+2022-12-05 18:38:53,021 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga861.fon
+2022-12-05 18:38:53,021 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga863.fon
+2022-12-05 18:38:53,022 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga865.fon
+2022-12-05 18:38:53,022 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga866.fon
+2022-12-05 18:38:53,023 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga869.fon
+2022-12-05 18:38:53,023 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga932.fon
+2022-12-05 18:38:53,023 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga936.fon
+2022-12-05 18:38:53,023 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga949.fon
+2022-12-05 18:38:53,024 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vga950.fon
+2022-12-05 18:38:53,025 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf1255.fon
+2022-12-05 18:38:53,025 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf1256.fon
+2022-12-05 18:38:53,026 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf1257.fon
+2022-12-05 18:38:53,026 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaf874.fon
+2022-12-05 18:38:53,027 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafix.fon
+2022-12-05 18:38:53,027 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixe.fon
+2022-12-05 18:38:53,028 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixg.fon
+2022-12-05 18:38:53,028 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixr.fon
+2022-12-05 18:38:53,029 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgafixt.fon
+2022-12-05 18:38:53,031 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgaoem.fon
+2022-12-05 18:38:53,031 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas1255.fon
+2022-12-05 18:38:53,032 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas1256.fon
+2022-12-05 18:38:53,033 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas1257.fon
+2022-12-05 18:38:53,033 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgas874.fon
+2022-12-05 18:38:53,034 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasys.fon
+2022-12-05 18:38:53,034 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasyse.fon
+2022-12-05 18:38:53,035 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasysg.fon
+2022-12-05 18:38:53,036 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasysr.fon
+2022-12-05 18:38:53,036 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\vgasyst.fon
+2022-12-05 18:38:53,038 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\webdings.ttf
+2022-12-05 18:38:53,038 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\webdings.ttf
+2022-12-05 18:38:53,039 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\wingding.ttf
+2022-12-05 18:38:53,039 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\wingding.ttf
+2022-12-05 18:38:53,039 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothB.ttc
+2022-12-05 18:38:53,040 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothB.ttc
+2022-12-05 18:38:53,040 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothL.ttc
+2022-12-05 18:38:53,040 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothL.ttc
+2022-12-05 18:38:53,042 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothM.ttc
+2022-12-05 18:38:53,042 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothM.ttc
+2022-12-05 18:38:53,042 DEBUG [main] FontFileFinder:136 - checkFontfile check C:\WINDOWS\FONTS\YuGothR.ttc
+2022-12-05 18:38:53,043 DEBUG [main] FontFileFinder:142 - checkFontfile found C:\WINDOWS\FONTS\YuGothR.ttc
+2022-12-05 18:38:53,081 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPSMT') returns TimesNewRomanPSMT (TTF, mac: 0x0, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\times.ttf
+2022-12-05 18:38:53,089 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPSMT from C:\WINDOWS\FONTS\times.ttf
+2022-12-05 18:38:53,096 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-BoldMT') returns TimesNewRomanPS-BoldMT (TTF, mac: 0x1, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\timesbd.ttf
+2022-12-05 18:38:53,101 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPS-BoldMT from C:\WINDOWS\FONTS\timesbd.ttf
+2022-12-05 18:38:53,106 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-ItalicMT') returns TimesNewRomanPS-ItalicMT (TTF, mac: 0x2, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\timesi.ttf
+2022-12-05 18:38:53,109 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPS-ItalicMT from C:\WINDOWS\FONTS\timesi.ttf
+2022-12-05 18:38:53,113 DEBUG [main] FontMapperImpl:484 - getFont('TTF','TimesNewRomanPS-BoldItalicMT') returns TimesNewRomanPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x105, cid: null) C:\WINDOWS\FONTS\timesbi.ttf
+2022-12-05 18:38:53,118 DEBUG [main] FileSystemFontProvider:198 - Loaded TimesNewRomanPS-BoldItalicMT from C:\WINDOWS\FONTS\timesbi.ttf
+2022-12-05 18:38:53,122 DEBUG [main] FontMapperImpl:484 - getFont('TTF','ArialMT') returns ArialMT (TTF, mac: 0x0, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\arial.ttf
+2022-12-05 18:38:53,125 DEBUG [main] FileSystemFontProvider:198 - Loaded ArialMT from C:\WINDOWS\FONTS\arial.ttf
+2022-12-05 18:38:53,129 DEBUG [main] FontMapperImpl:484 - getFont('TTF','Arial-BoldMT') returns Arial-BoldMT (TTF, mac: 0x1, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\arialbd.ttf
+2022-12-05 18:38:53,133 DEBUG [main] FileSystemFontProvider:198 - Loaded Arial-BoldMT from C:\WINDOWS\FONTS\arialbd.ttf
+2022-12-05 18:38:53,139 DEBUG [main] FontMapperImpl:484 - getFont('TTF','Arial-ItalicMT') returns Arial-ItalicMT (TTF, mac: 0x2, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\ariali.ttf
+2022-12-05 18:38:53,144 DEBUG [main] FileSystemFontProvider:198 - Loaded Arial-ItalicMT from C:\WINDOWS\FONTS\ariali.ttf
+2022-12-05 18:38:53,147 DEBUG [main] FontMapperImpl:484 - getFont('TTF','Arial-BoldItalicMT') returns Arial-BoldItalicMT (TTF, mac: 0x3, os/2: 0x805, cid: null) C:\WINDOWS\FONTS\arialbi.ttf
+2022-12-05 18:38:53,154 DEBUG [main] FileSystemFontProvider:198 - Loaded Arial-BoldItalicMT from C:\WINDOWS\FONTS\arialbi.ttf
+2022-12-05 18:38:53,160 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPSMT') returns CourierNewPSMT (TTF, mac: 0x0, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\cour.ttf
+2022-12-05 18:38:53,162 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPSMT from C:\WINDOWS\FONTS\cour.ttf
+2022-12-05 18:38:53,167 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPS-BoldMT') returns CourierNewPS-BoldMT (TTF, mac: 0x1, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\courbd.ttf
+2022-12-05 18:38:53,171 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPS-BoldMT from C:\WINDOWS\FONTS\courbd.ttf
+2022-12-05 18:38:53,173 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPS-ItalicMT') returns CourierNewPS-ItalicMT (TTF, mac: 0x2, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\couri.ttf
+2022-12-05 18:38:53,178 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPS-ItalicMT from C:\WINDOWS\FONTS\couri.ttf
+2022-12-05 18:38:53,181 DEBUG [main] FontMapperImpl:484 - getFont('TTF','CourierNewPS-BoldItalicMT') returns CourierNewPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x505, cid: null) C:\WINDOWS\FONTS\courbi.ttf
+2022-12-05 18:38:53,185 DEBUG [main] FileSystemFontProvider:198 - Loaded CourierNewPS-BoldItalicMT from C:\WINDOWS\FONTS\courbi.ttf
+2022-12-05 18:38:53,188 DEBUG [main] FontMapperImpl:484 - getFont('TTF','SymbolMT') returns SymbolMT (TTF, mac: 0x0, os/2: 0xc03, cid: null) C:\WINDOWS\FONTS\symbol.ttf
+2022-12-05 18:38:53,192 DEBUG [main] FileSystemFontProvider:198 - Loaded SymbolMT from C:\WINDOWS\FONTS\symbol.ttf
+2022-12-05 18:38:53,194 DEBUG [main] FontMapperImpl:484 - getFont('TTF','MS-Gothic') returns MS-Gothic (TTF, mac: 0x0, os/2: 0x801, cid: null) C:\WINDOWS\FONTS\msgothic.ttc
+2022-12-05 18:38:53,202 DEBUG [main] FileSystemFontProvider:198 - Loaded MS-Gothic from C:\WINDOWS\FONTS\msgothic.ttc
