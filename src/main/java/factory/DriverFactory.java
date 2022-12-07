@@ -8,10 +8,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.RemoteWebDriver;
-
-import java.net.MalformedURLException;
-import java.net.URI;
 import java.time.Duration;
 
 
@@ -24,35 +20,30 @@ public class DriverFactory {
     /* for browser launching */
     public WebDriver init_driver(String browser) {
 
-        if (browser.equals("chrome")) {
-            tlDriver.set(new ChromeDriver(BrowserCapabilities.incognitoChromeLaunch()));
-        } else if (browser.equals("edge")) {
-            tlDriver.set(new EdgeDriver(BrowserCapabilities.getEdgeCapabilitiesWithHeadless()));
-        } else if (browser.equals("firefox")) {
-
-            tlDriver.set(new FirefoxDriver(BrowserCapabilities.getFirefoxCapabilitiesWithHeadless()));
-        } else {
-            System.out.println("Please pass the correct browser value: " + browser);
-        }
         log.info("browser name is: " + browser);
-        log.info("launching " + browser + " browser");
+
+        if (browser.equals("chrome")) {
+            ChromeOptions co = new ChromeOptions();
+            co.setHeadless(false);
+            tlDriver.set(new ChromeDriver(co));
+        } else if (browser.equals("edge")) {
+            EdgeOptions eo = new EdgeOptions();
+            eo.setHeadless(false);
+            tlDriver.set(new EdgeDriver(eo));
+        } else if (browser.equals("firefox")) {
+            FirefoxOptions fo = new FirefoxOptions();
+            fo.setHeadless(false);
+            tlDriver.set(new FirefoxDriver(fo));
+        } else {
+            log.info("Please pass the correct browser value: " + browser);
+        }
+
 
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        getDriver().manage().window().maximize();
         getDriver().manage().deleteAllCookies();
         return getDriver();
     }
-
-
-    public WebDriver RemoteDriver() {
-        try {
-            tlDriver.set(new RemoteWebDriver(URI.create("http://localhost:4444/").toURL(), BrowserCapabilities.remoteDriverCap()));
-            DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
-        return getDriver();
-    }
-
 
 
     /*driver initialized */
