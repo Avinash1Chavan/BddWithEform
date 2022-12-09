@@ -12,7 +12,6 @@ public class ViewStatusSteps {
     }
 
     private Pages page;
-    Logger log = Logger.getLogger(ViewStatusSteps.class);
 
     /*-----------------------------------Test Scenario TS_02----------------------------------------*/
     /*TC_03, TC_04 :This method is click menu Hamburger  and view status option*/

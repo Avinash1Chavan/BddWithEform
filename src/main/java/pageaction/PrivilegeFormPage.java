@@ -23,8 +23,6 @@ public class PrivilegeFormPage {
     /* initializing the page objects */
     public PrivilegeFormPage(WebDriver rDriver) {
         driver = rDriver;
-
-        PageFactory.initElements(rDriver, this);
     }
 
     /* it's finding menu element in eform Application */

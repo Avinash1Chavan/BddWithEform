@@ -2,10 +2,7 @@ package pageobject;
 
 import factory.DriverFactory;
 import org.openqa.selenium.support.PageFactory;
-import pageaction.AdditionSoftwarePage;
-import pageaction.LoginForEform;
-import pageaction.PrivilegeFormPage;
-import pageaction.ViewStatusPg;
+import pageaction.*;
 
 public class Pages {
 
@@ -29,5 +26,11 @@ public class Pages {
 
     public ViewStatusPg viewStatusPg() {
         return load(ViewStatusPg.class);
+    }
+
+    public InfrastructureRequestPage infrastructureRequestPage(){return load(InfrastructureRequestPage.class);}
+
+    public LinkRequestPage linkRequestPage() {
+        return load(LinkRequestPage.class);
     }
 }

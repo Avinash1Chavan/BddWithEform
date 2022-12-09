@@ -19,8 +19,6 @@ public class ViewStatusPg {
     /* initializing the page objects */
     public ViewStatusPg(WebDriver rDriver) {
         driver = rDriver;
-
-        PageFactory.initElements(rDriver, this);
     }
 
     /* it's finding menu element in eform Application */

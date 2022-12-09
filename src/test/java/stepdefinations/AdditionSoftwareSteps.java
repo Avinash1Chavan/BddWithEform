@@ -17,7 +17,6 @@ public class AdditionSoftwareSteps {
     }
 
     private Pages page;
-    Logger log = Logger.getLogger(AdditionSoftwareSteps.class);
 
     /* TC_03 :This method is used to click on menu button */
     @Given("user is on Additional software request page")
