@@ -17,7 +17,6 @@ public class PrivilegeFormSteps {
     }
 
     private Pages page;
-    Logger log = Logger.getLogger(PrivilegeFormSteps.class);
 
     /* TC_04 , TC_05 :Select Privilege request */
     @Given("user is on Privilege request page")

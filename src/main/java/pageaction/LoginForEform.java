@@ -13,8 +13,6 @@ public class LoginForEform {
     /* initializing the page objects */
     public LoginForEform(WebDriver rDriver) {
         driver = rDriver;
-
-        PageFactory.initElements(rDriver, this);
     }
 
     /* it's finding username text box element in eform Application */

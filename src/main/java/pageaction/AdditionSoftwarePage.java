@@ -22,8 +22,6 @@ public class AdditionSoftwarePage {
     /* initializing the page objects */
     public AdditionSoftwarePage(WebDriver rDriver) {
         driver = rDriver;
-
-        PageFactory.initElements(rDriver, this);
     }
 
     /* it's finding menu element in eform Application */

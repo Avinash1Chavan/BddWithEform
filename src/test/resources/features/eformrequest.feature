@@ -1,4 +1,5 @@
-Feature: Eform Details
+Feature: Request form
+
 
   Background: Successfully Login
     Given user navigates to Website
@@ -19,8 +20,21 @@ Feature: Eform Details
     And User Click Submit button
     Then User gets eform number
 
-  Scenario: Successfully view status
-    When user clicks on View Status button
-    And user fills E-formNo
-    And user clicks on Submit button
-    And verify status
+
+  Scenario: Successfully submit infrastructure request details
+    Given user is on infrastructure request page
+    When user select project and enter Requirement Details
+    And user enter User Details
+    And user enter Remarks
+    And User clicks on Submit button
+    Then user gets eform number
+
+
+  Scenario: Successfully submit link request form details
+    Given user is on link request form page
+    When user select project name
+    And user enter location Details
+    And user enter link Details
+    And user enter remarks
+    And User click on Submit button
+    Then user get eform number

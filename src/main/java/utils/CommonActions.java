@@ -129,7 +129,7 @@ public class CommonActions {
     }
 
     /*To click radio button */
-    public void selectRadioButtonValue(List<WebElement> element, String valueTobeSelected) {
+    public static void selectRadioButtonValue(List<WebElement> element, String valueTobeSelected) {
         for (WebElement ref : element) {
             ref.click();
             break;
