@@ -18,10 +18,13 @@ public class PimHrmSteps {
     }
 
     private Pages page;
+    DriverFactory driverFactory;
 
 
     @Given("user navigates to HrmWebsite")
     public void user_Navigates_To_Website_Hrm() throws InterruptedException, IOException {
+        driverFactory = new DriverFactory();
+        driverFactory.init_driver("chrome");
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         DriverFactory.getDriver().get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         log.info("successfully launched hr resource application");

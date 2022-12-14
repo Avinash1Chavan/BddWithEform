@@ -24,14 +24,14 @@ public class ApplicationHooks extends CommonActions {
         prop = configReader.init_prop();
     }
 
-    /* This method is used for launching browser */
+    /* This method is used for launching browser *//*
     @Before(order = 1)
     public void launchBrowser() {
         String browserName = prop.getProperty("browser");
         driverFactory = new DriverFactory();
         driverFactory.init_driver(browserName);
 
-    }
+    }*/
 
     /* This method is used for closing browser */
     @After(order = 0)

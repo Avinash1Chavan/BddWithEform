@@ -20,11 +20,12 @@ public class SnapdealSteps {
         this.page = page;
     }
     private Pages page;
-
-
+    DriverFactory driverFactory;
 
     @Given ("user navigates to Snapdeal Application")
     public void user_Navigates_To_Website_Snapdeal() throws InterruptedException {
+        driverFactory = new DriverFactory();
+        driverFactory.init_driver("edge");
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         DriverFactory.getDriver().get("https://www.snapdeal.com/");
         log.info("successfully launched snapdeal ecommerce application");
