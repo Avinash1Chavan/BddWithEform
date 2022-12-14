@@ -11,7 +11,7 @@ import pageobject.Pages;
 import java.io.IOException;
 
 public class AdditionSoftwareSteps {
-
+    Logger log = Logger.getLogger(AdditionSoftwareSteps.class);
     public AdditionSoftwareSteps(Pages page) {
         this.page = page;
     }
@@ -22,6 +22,7 @@ public class AdditionSoftwareSteps {
     @Given("user is on Additional software request page")
     public void userIsOnAdditionalSoftwareRequestPage() throws InterruptedException {
         page.additionSoftwarePage().clickOnMenu();
+        log.info("successfully clicked hamburger menu option");
     }
 
     /*TC_05 : This method is used to select project name */
@@ -31,19 +32,22 @@ public class AdditionSoftwareSteps {
     @When("user enter required detail to raise eform")
     public void userEnterRequiredDetailToRaiseEform() throws IOException, ParseException, InterruptedException {
         page.additionSoftwarePage().enterRequireDetails();
+        log.info("entered requirement details on AdditionSoftwareRequest page");
         page.additionSoftwarePage().acceptTndC();
+        log.info("successfully checked accepted checkbox on AdditionSoftwareRequest page");
         page.additionSoftwarePage().enterRemark();
+        log.info("successfully typed remark description on AdditionSoftwareRequest page");
     }
 
     /*TC_11 : This method is used to submit Eform*/
     @And("User Click on Submit button")
     public void userClickOnSubmitButton() throws InterruptedException {
         page.additionSoftwarePage().clickOnSubmitbtn();
+        log.info("successfully clicked submit button on AdditionSoftwareRequest page");
     }
 
     @Then("User gets eform number")
     public void userGetsEformNumber() {
-
     }
 
 }

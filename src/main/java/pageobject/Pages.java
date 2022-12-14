@@ -33,4 +33,16 @@ public class Pages {
     public LinkRequestPage linkRequestPage() {
         return load(LinkRequestPage.class);
     }
+
+    public AddEmployeeForHrmPage AddEmployeeForHrmPage(){
+        return load(AddEmployeeForHrmPage.class);
+    }
+
+    public SnapdealScenarios SnapdealScenarios(){
+        return load(SnapdealScenarios.class);
+    }
+
+    public LoginForHrmPage LoginForHrmPage(){
+        return load(LoginForHrmPage.class);
+    }
 }
