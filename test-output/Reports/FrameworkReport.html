@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 1, 2023 01:05:19 PM</span></a>
+<a href="#"><span class="badge badge-primary">Feb 1, 2023 01:18:55 PM</span></a>
 </li>
 </ul>
 </div>
@@ -45,11 +45,6 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
-</a>
-</li>
-<li class="nav-item dropdown" onclick="toggleView('exception-view')">
-<a id="nav-exception" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('category-view')">
@@ -76,7 +71,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -84,31 +79,31 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@AddProduct</a><a class="dropdown-item" href="#">@FetchingOrderDetails</a><a class="dropdown-item" href="#">@DeleteProduct</a><a class="dropdown-item" href="#">@LoginForEcommerce</a><a class="dropdown-item" href="#">@PlacingOrder</a>
+<a class="dropdown-item" href="#">@FetchingOrderDetails</a><a class="dropdown-item" href="#">@AddProduct</a><a class="dropdown-item" href="#">@LoginForEcommerce</a><a class="dropdown-item" href="#">@PlacingOrder</a><a class="dropdown-item" href="#">@DeleteProduct</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Validating Ecommerce_API's</p>
             <p class="text-sm">
-              <span>1:05:20 PM</span> / <span>00:00:00:223</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>1:18:56 PM</span> / <span>00:00:05:150</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Validating Ecommerce_API's</h5>
-<span class='badge badge-success'>02.01.2023 1:05:20 PM</span>
-<span class='badge badge-danger'>02.01.2023 1:05:20 PM</span>
-<span class='badge badge-default'>00:00:00:223</span>
+<h5 class="test-status text-pass">Validating Ecommerce_API's</h5>
+<span class='badge badge-success'>02.01.2023 1:18:56 PM</span>
+<span class='badge badge-danger'>02.01.2023 1:19:02 PM</span>
+<span class='badge badge-default'>00:00:05:150</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -120,49 +115,30 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Login validation for ecommerce site</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Login validation for ecommerce site</div>
       </div>
     </div>
-        <div class="scenario_outline ">
+        <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Login validation for ecommerce site</div>
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Login validation for ecommerce site</div>
                 </div>
               </div>
-              <div class="card-body mt-3 ">
-                  <div class="step fail-bg">
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
                     <span>Given Body payload  with credentials "srimannaidu7849@gmail.com" and "Sriman@7849"</span>
       <div>
-        <textarea disabled class="code-block">java.lang.NoClassDefFoundError: Could not initialize class org.codehaus.groovy.reflection.ReflectionCache
-	at org.codehaus.groovy.runtime.dgmimpl.NumberNumberMetaMethod.<clinit>(NumberNumberMetaMethod.java:33)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.createMetaMethodFromClass(MetaClassRegistryImpl.java:258)
-	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:111)
-	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.<init>(MetaClassRegistryImpl.java:86)
-	at groovy.lang.GroovySystem.<clinit>(GroovySystem.java:36)
-	at org.codehaus.groovy.runtime.InvokerHelper.<clinit>(InvokerHelper.java:86)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.createMap(ScriptBytecodeAdapter.java:635)
-	at io.restassured.internal.ResponseParserRegistrar.<init>(ResponseParserRegistrar.groovy)
-	at io.restassured.RestAssured.<clinit>(RestAssured.java:346)
-	at stepdefinations.StepDefinationsEcommerce.bodyPayloadWithCredentialsAnd(StepDefinationsEcommerce.java:49)
-	at ✽.Body payload  with credentials "srimannaidu7849@gmail.com" and "Sriman@7849"(file:///C:/Users/AC67129/Documents/BddCucumberProject/BddWithEform/src/test/resources/features/EndToEndEcommerce.feature:5)
-</textarea>
-      
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step pass-bg">
                     <span>When user calls the resource "Login_API" with "POST" method</span>
-      <div>Step skipped
+      <div>
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step pass-bg">
                     <span>Then the API call will get success with status code 200</span>
-      <div>Step skipped
+      <div>
       </div>
                   </div>
               </div>
@@ -172,41 +148,35 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="7"><span class="badge log fail-bg mr-2">Fail</span>Validating Addition of the product</div>
+        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Validating Addition of the product</div>
       </div>
     </div>
-        <div class="scenario_outline ">
+        <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="8"><span class="badge log fail-bg mr-2">Fail</span>Validating Addition of the product</div>
+                  <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>Validating Addition of the product</div>
                 </div>
               </div>
-              <div class="card-body mt-3 ">
-                  <div class="step fail-bg">
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
                     <span>Given The authorization token is fetched with the data "Laptop", "Electronics", "Computer devices", "90000","Best Laptop","everyone"</span>
       <div>
-        <textarea disabled class="code-block">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
-	at io.restassured.builder.RequestSpecBuilder.<init>(RequestSpecBuilder.java:78)
-	at stepdefinations.StepDefinationsEcommerce.theAuthorizationTokenIsFetchedWithTheData(StepDefinationsEcommerce.java:82)
-	at ✽.The authorization token is fetched with the data "Laptop", "Electronics", "Computer devices", "90000","Best Laptop","everyone"(file:///C:/Users/AC67129/Documents/BddCucumberProject/BddWithEform/src/test/resources/features/EndToEndEcommerce.feature:14)
-</textarea>
-      
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step pass-bg">
                     <span>When user calls the resource "ADD_PRODUCT_API" with "POST" method</span>
-      <div>Step skipped
+      <div>
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step pass-bg">
                     <span>Then the API call will pass successfully with status code 201</span>
-      <div>Step skipped
+      <div>
       </div>
                   </div>
-                  <div class="step skip-bg">
+                  <div class="step pass-bg">
                     <span>And The "message" will be rendered as "Product Added Successfully"</span>
-      <div>Step skipped
+      <div>
       </div>
                   </div>
               </div>
@@ -216,40 +186,34 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="13"><span class="badge log fail-bg mr-2">Fail</span>Placing the order for product created</div>
+        <div class="node" id="13"><span class="badge log pass-bg mr-2">Pass</span>Placing the order for product created</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
-              <div class="step fail-bg" title="stepdefinations.StepDefinationsEcommerce.sendingThePlacingOrderPayloadWithRequiredProperties()">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.sendingThePlacingOrderPayloadWithRequiredProperties()">
                 <span>Given sending the placing order payload with required properties</span>
       <div>
-        <textarea disabled class="code-block">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
-	at io.restassured.builder.RequestSpecBuilder.<init>(RequestSpecBuilder.java:78)
-	at stepdefinations.StepDefinationsEcommerce.sendingThePlacingOrderPayloadWithRequiredProperties(StepDefinationsEcommerce.java:122)
-	at ✽.sending the placing order payload with required properties(file:///C:/Users/AC67129/Documents/BddCucumberProject/BddWithEform/src/test/resources/features/EndToEndEcommerce.feature:24)
-</textarea>
-      
       </div>
               </div>
-              <div class="step skip-bg" title="stepdefinations.StepDefinationsEcommerce.userCallsTheResourceWithMethod(java.lang.String,java.lang.String)">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.userCallsTheResourceWithMethod(java.lang.String,java.lang.String)">
                 <span>When user calls the resource "PLACE_ORDER_API" with "POST" method</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepdefinations.StepDefinationsEcommerce.theAPICallWillPassSuccessfullyWithStatusCode(int)">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.theAPICallWillPassSuccessfullyWithStatusCode(int)">
                 <span>Then the API call will pass successfully with status code 201</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepdefinations.StepDefinationsEcommerce.theWillBeRenderedAs(java.lang.String,java.lang.String)">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.theWillBeRenderedAs(java.lang.String,java.lang.String)">
                 <span>And The "message" will be rendered as "Order Placed Successfully"</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepdefinations.StepDefinationsEcommerce.theOrderNumberIsFetched()">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.theOrderNumberIsFetched()">
                 <span>And the orderNumber is fetched</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
           </div>
@@ -258,35 +222,29 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="19"><span class="badge log fail-bg mr-2">Fail</span>Fetching the order details</div>
+        <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>Fetching the order details</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
-              <div class="step fail-bg" title="stepdefinations.StepDefinationsEcommerce.fetchingTheOrderDetailsBySendingOrderNumberAsQueryParameter()">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.fetchingTheOrderDetailsBySendingOrderNumberAsQueryParameter()">
                 <span>Given Fetching the order details by sending orderNumber as query parameter</span>
       <div>
-        <textarea disabled class="code-block">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
-	at io.restassured.builder.RequestSpecBuilder.<init>(RequestSpecBuilder.java:78)
-	at stepdefinations.StepDefinationsEcommerce.fetchingTheOrderDetailsBySendingOrderNumberAsQueryParameter(StepDefinationsEcommerce.java:145)
-	at ✽.Fetching the order details by sending orderNumber as query parameter(file:///C:/Users/AC67129/Documents/BddCucumberProject/BddWithEform/src/test/resources/features/EndToEndEcommerce.feature:32)
-</textarea>
-      
       </div>
               </div>
-              <div class="step skip-bg" title="stepdefinations.StepDefinationsEcommerce.userCallsTheResourceWithMethod(java.lang.String,java.lang.String)">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.userCallsTheResourceWithMethod(java.lang.String,java.lang.String)">
                 <span>When user calls the resource "GET_ORDER_API" with "GET" method</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepdefinations.StepDefinationsEcommerce.theAPICallWillPassSuccessfullyWithStatusCode(int)">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.theAPICallWillPassSuccessfullyWithStatusCode(int)">
                 <span>Then the API call will pass successfully with status code 200</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepdefinations.StepDefinationsEcommerce.theWillBeDisplayedAs(java.lang.String)">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.theWillBeDisplayedAs(java.lang.String)">
                 <span>And The message will be displayed as "Orders fetched for customer Successfully"</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
           </div>
@@ -295,35 +253,29 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="24"><span class="badge log fail-bg mr-2">Fail</span>Deleting the product</div>
+        <div class="node" id="24"><span class="badge log pass-bg mr-2">Pass</span>Deleting the product</div>
       </div>
     </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
-              <div class="step fail-bg" title="stepdefinations.StepDefinationsEcommerce.fetchingTheProductIdThatToBeDeleted()">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.fetchingTheProductIdThatToBeDeleted()">
                 <span>Given Fetching the productId that to be deleted</span>
       <div>
-        <textarea disabled class="code-block">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
-	at io.restassured.builder.RequestSpecBuilder.<init>(RequestSpecBuilder.java:78)
-	at stepdefinations.StepDefinationsEcommerce.fetchingTheProductIdThatToBeDeleted(StepDefinationsEcommerce.java:169)
-	at ✽.Fetching the productId that to be deleted(file:///C:/Users/AC67129/Documents/BddCucumberProject/BddWithEform/src/test/resources/features/EndToEndEcommerce.feature:39)
-</textarea>
-      
       </div>
               </div>
-              <div class="step skip-bg" title="stepdefinations.StepDefinationsEcommerce.userCallsTheResourceWithMethod(java.lang.String,java.lang.String)">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.userCallsTheResourceWithMethod(java.lang.String,java.lang.String)">
                 <span>When user calls the resource "DELETE_PRODUCT_API" with "DELETE" method</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepdefinations.StepDefinationsEcommerce.theAPICallWillPassSuccessfullyWithStatusCode(int)">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.theAPICallWillPassSuccessfullyWithStatusCode(int)">
                 <span>Then the API call will pass successfully with status code 200</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
-              <div class="step skip-bg" title="stepdefinations.StepDefinationsEcommerce.theIs(java.lang.String,java.lang.String)">
+              <div class="step pass-bg" title="stepdefinations.StepDefinationsEcommerce.theIs(java.lang.String,java.lang.String)">
                 <span>And The "message" is "Product Deleted Successfully"</span>
-      <div>Step skipped
+      <div>
       </div>
               </div>
           </div>
@@ -341,99 +293,7 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view exception-view attributes-view">
-<div class="test-list">
-<div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
-</div>
-<div class="test-list-wrapper scrollable">
-<ul class="test-list-item">
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>5</span>
-</span>
-<p class="name">java.lang.NoClassDefFoundError</p>
-<p class="duration text-sm">5 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>java.lang.NoClassDefFoundError</h4>
-<span status="fail" class='badge log badge-danger'>5 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>13:05:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='4'>Given Body payload with credentials "srimannaidu7849@gmail.com" and "Sriman@7849"</a>
-<div class="">
-<span class="badge badge-default">Validating Ecommerce_API's.Login validation for ecommerce site.Given Body payload with credentials "srimannaidu7849@gmail.com" and "Sriman@7849"</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>13:05:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='9'>Given The authorization token is fetched with the data "Laptop", "Electronics", "Computer devices", "90000","Best Laptop","everyone"</a>
-<div class="">
-<span class="badge badge-default">Validating Ecommerce_API's.Validating Addition of the product.Given The authorization token is fetched with the data "Laptop", "Electronics", "Computer devices", "90000","Best Laptop","everyone"</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>13:05:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='14'>Given sending the placing order payload with required properties</a>
-<div class="">
-<span class="badge badge-default">Validating Ecommerce_API's.Placing the order for product created.Given sending the placing order payload with required properties</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>13:05:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='20'>Given Fetching the order details by sending orderNumber as query parameter</a>
-<div class="">
-<span class="badge badge-default">Validating Ecommerce_API's.Fetching the order details.Given Fetching the order details by sending orderNumber as query parameter</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>13:05:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='25'>Given Fetching the productId that to be deleted</a>
-<div class="">
-<span class="badge badge-default">Validating Ecommerce_API's.Deleting the product.Given Fetching the productId that to be deleted</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="test-content scrollable">
-<div class="test-content-detail">
-<div class="detail-body"></div>
-</div>
-</div>
-</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-wrapper row view category-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
@@ -444,43 +304,7 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
-</span>
-<p class="name">@AddProduct</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@AddProduct</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>13:05:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='8'>Validating Addition of the product</a>
-<div class="">
-<span class="badge badge-default">Validating Ecommerce_API's.Validating Addition of the product</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>1</span>
 </span>
 <p class="name">@FetchingOrderDetails</p>
 <p class="duration text-sm">1 tests</p>
@@ -488,7 +312,7 @@
 <div class="test-contents d-none">
 <div class="info">
 <h4>@FetchingOrderDetails</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -499,9 +323,9 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>13:05:20 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:19:01 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='19'>Fetching the order details</a>
 <div class="">
@@ -516,15 +340,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">@DeleteProduct</p>
+<p class="name">@AddProduct</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@DeleteProduct</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<h4>@AddProduct</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -535,13 +359,13 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>13:05:20 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:18:59 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='24'>Deleting the product</a>
+<a href="#" class="linked" test-id='1' id='8'>Validating Addition of the product</a>
 <div class="">
-<span class="badge badge-default">Validating Ecommerce_API's.Deleting the product</span>
+<span class="badge badge-default">Validating Ecommerce_API's.Validating Addition of the product</span>
 </div>
 </td>
 </tr>
@@ -552,7 +376,7 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>1</span>
 </span>
 <p class="name">@LoginForEcommerce</p>
 <p class="duration text-sm">1 tests</p>
@@ -560,7 +384,7 @@
 <div class="test-contents d-none">
 <div class="info">
 <h4>@LoginForEcommerce</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -571,9 +395,9 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>13:05:20 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:18:56 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='3'>Login validation for ecommerce site</a>
 <div class="">
@@ -588,7 +412,7 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log pass-bg'>1</span>
 </span>
 <p class="name">@PlacingOrder</p>
 <p class="duration text-sm">1 tests</p>
@@ -596,7 +420,7 @@
 <div class="test-contents d-none">
 <div class="info">
 <h4>@PlacingOrder</h4>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -607,13 +431,49 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>13:05:20 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:19:00 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='13'>Placing the order for product created</a>
 <div class="">
 <span class="badge badge-default">Validating Ecommerce_API's.Placing the order for product created</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@DeleteProduct</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@DeleteProduct</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:19:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='24'>Deleting the product</a>
+<div class="">
+<span class="badge badge-default">Validating Ecommerce_API's.Deleting the product</span>
 </div>
 </td>
 </tr>
@@ -634,25 +494,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 1, 2023 01:05:19 PM</h3>
+<h3>Feb 1, 2023 01:18:55 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 1, 2023 01:05:20 PM</h3>
+<h3>Feb 1, 2023 01:19:02 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -668,12 +528,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> features passed
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>1</b> features failed,
+<small data-tooltip='0%'><b>0</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -691,9 +551,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>5</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='100%'><b>5</b> scenarios failed,
+<small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -711,10 +571,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>20</b> steps passed</small></div>
 <div>
-<small data-tooltip='25%'><b>5</b> steps failed,
-<b>15</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -730,7 +590,7 @@
 </div></div>
 <script>
 var timeline = {
-"Validating Ecommerce_API's":0.223
+"Validating Ecommerce_API's":5.15
 };
 </script>
 <div class="row">
@@ -740,44 +600,44 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@AddProduct</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0%</td>
-</tr>
-<tr>
 <td>@FetchingOrderDetails</td>
-<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 <tr>
-<td>@DeleteProduct</td>
-<td>0</td>
+<td>@AddProduct</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 <tr>
 <td>@LoginForEcommerce</td>
-<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 <tr>
 <td>@PlacingOrder</td>
-<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@DeleteProduct</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -810,21 +670,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 1,
+passParent: 1,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 0,
-failChild: 5,
+passChild: 5,
+failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 0,
-failGrandChild: 5,
+passGrandChild: 20,
+failGrandChild: 0,
 warningGrandChild: 0,
-skipGrandChild: 15,
+skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 };

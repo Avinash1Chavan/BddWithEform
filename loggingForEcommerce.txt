@@ -1,18 +1,21 @@
-Request method:	DELETE
-Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/63da1958568c3e9fb10850a8
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	productId=63da1958568c3e9fb10850a8
-Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2QwY2E1ZjU2OGMzZTlmYjEwMTczN2QiLCJ1c2VyRW1haWwiOiJzcmltYW5uYWlkdTc4NDlAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzcyOTkzMTc5NiwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY3NTIzNzcxOSwiZXhwIjoxNzA2Nzk1MzE5fQ.tJlVPwbTavmSUQtkj_s_BH7jJMz9IokyEGSfE67cW8A
-				Accept=*/*
+Path params:	<none>
+Headers:		Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
+Body:
+{
+    "userEmail": "srimannaidu7849@gmail.com",
+    "userPassword": "Sriman@7849"
+}
 HTTP/1.1 200 OK
-Date: Wed, 01 Feb 2023 07:48:42 GMT
+Date: Wed, 01 Feb 2023 07:48:39 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -26,12 +29,14 @@ Referrer-Policy: no-referrer
 X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 42
-ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Content-Length: 366
+ETag: W/"16e-o+T9NEmuC6g4G7aUC2ysFtGLYOQ"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
-    "message": "Product Deleted Successfully"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2QwY2E1ZjU2OGMzZTlmYjEwMTczN2QiLCJ1c2VyRW1haWwiOiJzcmltYW5uYWlkdTc4NDlAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzcyOTkzMTc5NiwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY3NTIzNzcxOSwiZXhwIjoxNzA2Nzk1MzE5fQ.tJlVPwbTavmSUQtkj_s_BH7jJMz9IokyEGSfE67cW8A",
+    "userId": "63d0ca5f568c3e9fb101737d",
+    "message": "Login Successfully"
 }
