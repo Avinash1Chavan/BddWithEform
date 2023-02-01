@@ -78,7 +78,7 @@ public class PrivilegeFormPage {
     WebElement remark;
 
     /* it's finding checkbox element in eform Application */
-    @FindBy(xpath = "//input[@id='iAccept']")
+    @FindBy(xpath = "//input[@id='']")
     WebElement checkbox;
 
     /* it's finding submit button element in eform Application */
@@ -93,11 +93,7 @@ public class PrivilegeFormPage {
 
     /* This method is used to select respective project name and fill required details */
     public void enterRequireDetails() throws InterruptedException, IOException, ParseException {
-        // parsing file "JSONExample.json"
-        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/test/resources/Data.json"));
-
-        // typecasting obj to JSONObject
-        JSONObject jsonObject = (JSONObject) obj;
+        Object jsonObject = JsonRead.convertFileToJson();
 
        String projectName = JsonRead.getValue(jsonObject, "project");
        String AssetType = JsonRead.getValue(jsonObject, "assettype");

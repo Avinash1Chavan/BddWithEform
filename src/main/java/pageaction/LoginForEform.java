@@ -33,15 +33,17 @@ public class LoginForEform {
 
 
     /* This method is used to fill the credential  */
-    public void log_In(String name, String password_name) throws InterruptedException {
-        CommonActions.sendKeysWebElement(uname, name);
-        Thread.sleep(1000);
-        CommonActions.sendKeysWebElement(Pass_word, password_name);
+    public void log_In(String username, String password) throws InterruptedException {
+        CommonActions.sendKeysWebElement(uname, username);
+        Thread.sleep(2000);
+        CommonActions.sendKeysWebElement(Pass_word, password);
+        Thread.sleep(2000);
+        CommonActions.clickingOnWebElement(submit, 3);
     }
 
     /* This method is used for click on log in button close pop up window */
     public void logInAndClosePopUp() {
-        CommonActions.clickingOnWebElement(submit, 3);
+
         CommonActions.clickingOnWebElement(closeform, 3);
     }
 
