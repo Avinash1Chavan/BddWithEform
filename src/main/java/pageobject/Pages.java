@@ -33,10 +33,25 @@ public class Pages {
     public LinkRequestPage linkRequestPage() {
         return load(LinkRequestPage.class);
     }
+<<<<<<< HEAD
     public LoginForOrangeHrm loginForOrangeHrm() {
         return load(LoginForOrangeHrm.class);
     }
     public AdminPageForHrm adminPageForHrm() {return load(AdminPageForHrm.class);}
     public LeavePageForHrm leavePageForHrm() {return load(LeavePageForHrm.class);}
 
+=======
+
+    public AddEmployeeForHrmPage AddEmployeeForHrmPage(){
+        return load(AddEmployeeForHrmPage.class);
+    }
+
+    public SnapdealScenarios SnapdealScenarios(){
+        return load(SnapdealScenarios.class);
+    }
+
+    public LoginForHrmPage LoginForHrmPage(){
+        return load(LoginForHrmPage.class);
+    }
+>>>>>>> 117b99956c06877af29f0e6b17142ab03aa9cd08
 }
