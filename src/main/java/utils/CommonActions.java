@@ -3,6 +3,9 @@ package utils;
 
 import factory.DriverFactory;
 import org.apache.log4j.Logger;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,6 +13,9 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.List;
@@ -99,6 +105,8 @@ public class CommonActions {
         JavascriptExecutor js = ((JavascriptExecutor) DriverFactory.getDriver());
         js.executeScript("arguments[0].value='" + text + "';", ele);
     }
+
+
 
 
     /* To Perform Select all Dropdown Option's  */
@@ -261,6 +269,8 @@ public class CommonActions {
     }
 
 
+
+    /*Calendar it helps to select future data */
     /*Calendar it helps to select future data on hrm application*/
     public static void selectCalendar(String expectDay, String expectMonth, String expectYear) {
         if (expectMonth.equals("February") && Integer.parseInt(expectDay) > 29) {

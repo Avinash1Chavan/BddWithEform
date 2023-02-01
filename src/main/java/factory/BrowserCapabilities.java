@@ -14,6 +14,7 @@ import java.util.Map;
 
 public class BrowserCapabilities {
 
+    /* this method used for desired capibilities of remote driver */
     public static DesiredCapabilities remoteDriverCap() {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("browser", "");

@@ -22,7 +22,7 @@ public class DriverFactory {
     public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 
 
-    /* for browser launching */
+    /* for local browser launching */
     public WebDriver init_driver(String browser) {
 
         if (browser.equals("chrome")) {
@@ -44,6 +44,7 @@ public class DriverFactory {
     }
 
 
+    /* for remote browser launching */
     public WebDriver RemoteDriver() {
         try {
             tlDriver.set(new RemoteWebDriver(URI.create("http://localhost:4444/").toURL(), BrowserCapabilities.remoteDriverCap()));

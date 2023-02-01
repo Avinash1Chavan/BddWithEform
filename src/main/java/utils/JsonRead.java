@@ -14,6 +14,15 @@ public class JsonRead {
     static Logger log = Logger.getLogger(JsonRead.class);
     static String value = "";
 
+    public static Object convertFileToJson() throws IOException, ParseException {
+        // parsing file "JSONExample.json"
+        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/test/resources/Data.json"));
+
+        // typecasting obj to JSONObject
+        JSONObject jsonObject = (JSONObject) obj;
+        return obj;
+    }
+
     public static String getValue(Object json, String str) {
 
         if (json instanceof JSONObject) {

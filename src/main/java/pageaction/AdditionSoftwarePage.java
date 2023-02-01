@@ -117,24 +117,20 @@ public class AdditionSoftwarePage {
     /* This method is used to select respective project name and fill remaining details */
     public void enterRequireDetails() throws InterruptedException, IOException, ParseException {
 
-        // parsing file "JSONExample.json"
-        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/test/resources/Data.json"));
+        Object jsonObject = JsonRead.convertFileToJson();
 
-        // typecasting obj to JSONObject
-        JSONObject jsonObject = (JSONObject) obj;
-
-       String projectName = JsonRead.getValue(jsonObject, "project");
-       String ProductDetails = JsonRead.getValue(jsonObject, "productdetails");
-       String AssetNumber = JsonRead.getValue(jsonObject, "assetnumber");
-       String AssetNo = JsonRead.getValue(jsonObject, "assetno");
-       String ExtensionNumber = JsonRead.getValue(jsonObject, "extensionnumber");
-       String Location = JsonRead.getValue(jsonObject, "location");
-       String DeskNumber = JsonRead.getValue(jsonObject, "desknumber");
-       String Hostname = JsonRead.getValue(jsonObject, "hostname");
-       String RequireDate = JsonRead.getValue(jsonObject, "requiredate");
-       String LicenseType = JsonRead.getValue(jsonObject, "licenseType");
-       String Commercial = JsonRead.getValue(jsonObject, "commercial");
-       String IpAddress = JsonRead.getValue(jsonObject, "ipAddress");
+        String projectName = JsonRead.getValue(jsonObject, "project");
+        String ProductDetails = JsonRead.getValue(jsonObject, "productdetails");
+        String AssetNumber = JsonRead.getValue(jsonObject, "assetnumber");
+        String AssetNo = JsonRead.getValue(jsonObject, "assetno");
+        String ExtensionNumber = JsonRead.getValue(jsonObject, "extensionnumber");
+        String Location = JsonRead.getValue(jsonObject, "location");
+        String DeskNumber = JsonRead.getValue(jsonObject, "desknumber");
+        String Hostname = JsonRead.getValue(jsonObject, "hostname");
+        String RequireDate = JsonRead.getValue(jsonObject, "requiredate");
+        String LicenseType = JsonRead.getValue(jsonObject, "licenseType");
+        String Commercial = JsonRead.getValue(jsonObject, "commercial");
+        String IpAddress = JsonRead.getValue(jsonObject, "ipAddress");
 
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         CommonActions.selectDropDownValue(projectname, "value", projectName);
@@ -167,15 +163,9 @@ public class AdditionSoftwarePage {
     /* This method is used to fill remark details */
     public void enterRemark() throws IOException, ParseException, InterruptedException {
         String Remark = "";
-        String ScrollDown = "";
-        // parsing file "JSONExample.json"
-        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + "/src/test/resources/Data.json"));
-
-        // typecasting obj to JSONObject
-        JSONObject jsonObject = (JSONObject) obj;
+        Object jsonObject = JsonRead.convertFileToJson();
 
         Remark = JsonRead.getValue(jsonObject, "remark");
-        ScrollDown = JsonRead.getValue(jsonObject, "scrolldown");
 
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         CommonActions.sendKeysWebElement(remark, Remark);
