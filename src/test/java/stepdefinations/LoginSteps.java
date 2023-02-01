@@ -38,11 +38,8 @@ public class LoginSteps {
     public void user_Navigates_To_Website() throws InterruptedException, IOException, ParseException, ParserConfigurationException, SAXException {
         // getdriver method is called from Driverfactory class which is located in factory package*/
         log.info("****************************** Starting test cases execution  *****************************************");
-<<<<<<< HEAD
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-=======
         DriverFactory.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
->>>>>>> 117b99956c06877af29f0e6b17142ab03aa9cd08
         DriverFactory.getDriver().get("https://eformsnew.zensar.com/eformsDev/Login");
         log.info("navigated efrom dev environment application ");
     }
