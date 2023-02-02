@@ -33,7 +33,7 @@ public class AdditionSoftwarePage {
     WebElement type;
 
     /* it's finding project name element in eform Application */
-    @FindBy(xpath = "//select[@id='projectName']")
+    @FindBy(id = "projectName")
     WebElement projectname;
 
     /* it's finding user element in eform Application */

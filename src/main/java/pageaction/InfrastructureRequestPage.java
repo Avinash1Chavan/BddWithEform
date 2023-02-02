@@ -75,7 +75,7 @@ public class InfrastructureRequestPage {
 
     /* This method is used for click on menu button */
     public void clickMenu() throws InterruptedException {
-        CommonActions.clickingOnWebElement(menu, 3);
+        CommonActions.clickingOnWebElement(menu, 5);
     }
 
 
@@ -108,7 +108,7 @@ public class InfrastructureRequestPage {
         CommonActions.sendKeysWebElement(extensionNumber,"0000");
         CommonActions.selectDropDownValue(associateStatus,"index","1");
         CommonActions.selectDropDownValue(baseLocation,"index","1");
-        CommonActions.selectDropDownValue(location,"index","1");
+        CommonActions.selectDropDownValue(location,"index","0");
 
     }
 

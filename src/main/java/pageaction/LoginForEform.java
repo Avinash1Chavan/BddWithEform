@@ -43,8 +43,7 @@ public class LoginForEform {
 
     /* This method is used for click on log in button close pop up window */
     public void logInAndClosePopUp() {
-
-        CommonActions.clickingOnWebElement(closeform, 3);
+        //CommonActions.clickingOnWebElement(closeform, 3);
     }
 
 
