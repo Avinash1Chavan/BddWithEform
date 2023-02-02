@@ -26,7 +26,7 @@ public class PrivilegeFormPage {
     }
 
     /* it's finding menu element in eform Application */
-    @FindBy(xpath = "//div[@class='noti__item js-item-menu']//img")
+    @FindBy(xpath = "//div[@class='header-button eform-menu']//div[@class='noti-wrap']")
     WebElement menu;
 
     /* it's finding request type element in eform Application */
@@ -78,7 +78,7 @@ public class PrivilegeFormPage {
     WebElement remark;
 
     /* it's finding checkbox element in eform Application */
-    @FindBy(xpath = "//input[@id='']")
+    @FindBy(xpath = "//input[@id='iAccept']")
     WebElement checkbox;
 
     /* it's finding submit button element in eform Application */
@@ -87,8 +87,8 @@ public class PrivilegeFormPage {
 
     /* This method is used to click menu and select request type */
     public void clickOnMenu() {
-        CommonActions.clickingOnWebElement(menu, 2);
-        CommonActions.clickingOnWebElement(type, 2);
+        CommonActions.clickingOnWebElement(menu, 3);
+        CommonActions.clickingOnWebElement(type, 3);
     }
 
     /* This method is used to select respective project name and fill required details */

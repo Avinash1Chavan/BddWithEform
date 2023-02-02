@@ -66,7 +66,7 @@ public class LinkRequestPage {
 
     /* This method is used for click on menu button */
     public void clickMenu() throws InterruptedException {
-        CommonActions.clickingOnWebElement(menu,3);
+        CommonActions.clickingOnWebElement(menu,4);
     }
 
 
