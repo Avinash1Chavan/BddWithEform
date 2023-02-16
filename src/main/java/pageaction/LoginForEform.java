@@ -10,7 +10,7 @@ public class LoginForEform {
 
     WebDriver driver;
 
-    /* initializing the page objects */
+    /* initializing the local driver */
     public LoginForEform(WebDriver rDriver) {
         driver = rDriver;
     }

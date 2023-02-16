@@ -11,9 +11,11 @@ import org.testng.annotations.DataProvider;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         /* This feature and glue is for execution of Web Application */
-        features = {"src/test/resources/features/eformrequest.feature"},
+        features = {"src/test/resources/WebFeatures"},
         glue = {"apphooks","stepdefinations"},
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+        //tags = "@Common"
+
 )
 /*This class is used to achieve parallel execution */
 public class WebRunner extends AbstractTestNGCucumberTests {

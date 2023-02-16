@@ -9,9 +9,10 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         /* This feature and glue is for execution of API */
-        features = {"src/test/resources/features/EndToEndEcommerce.feature"},
+        features = {"src/test/resources/ApiFeatures"},
         glue = {"stepdefinations"},
-        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+        tags = "@LoginForEcommerceXml"
 )
 /*This class is used to achieve parallel execution */
 public class ApiRunner extends AbstractTestNGCucumberTests {

@@ -1,11 +1,9 @@
 Feature: Request form
 
-
   Background: Successfully Login
     Given user navigates to Website
     When user enters credential from credentialsheet
     And user clicks on Login button
-
 
   Scenario: Successfully submit Additional software request details
     Given user is on Additional software request page

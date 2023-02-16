@@ -1,3 +1,4 @@
+@Common
 Feature:  Snapdeal buying product scenario
 
   Scenario: Successfully buying product On Snapdeal
