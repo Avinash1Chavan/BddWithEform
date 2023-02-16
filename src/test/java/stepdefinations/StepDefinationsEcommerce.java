@@ -13,7 +13,7 @@ import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.RequestSpecification;/**/
 import pojo.LoginResponseForEcommerce;
 import pojo.ViewOrders;
 
@@ -41,8 +41,9 @@ public class StepDefinationsEcommerce extends util {
     }
 
     /**
-     * SCENARIO 1 -> LOGIN
+         SCENARIO 1 -> LOGIN
      */
+
 
     @Given("Body payload  with credentials {string} and {string}")
     public void bodyPayloadWithCredentialsAnd(String userEmail, String userPassword) throws IOException {
@@ -71,8 +72,9 @@ public class StepDefinationsEcommerce extends util {
     }
 
     /**
-     * SCENARIO 2 -> ADDING PRODUCT
+         SCENARIO 2 -> ADDING PRODUCT
      */
+
 
     @Given("The authorization token is fetched with the data {string}, {string}, {string}, {string},{string},{string}")
     public void theAuthorizationTokenIsFetchedWithTheData(String productName, String productCategory,
@@ -90,7 +92,7 @@ public class StepDefinationsEcommerce extends util {
 
         request = given().spec(addProductBaseReq)
                 .param("productName", productName)
-                .param("productAddedBy", userId) /*UserId */
+                .param("productAddedBy", userId) /*UserId*/
                 .param("productCategory", productCategory)
                 .param("productSubCategory", productSubCategory)
                 .param("productPrice", productPrice)
@@ -113,8 +115,9 @@ public class StepDefinationsEcommerce extends util {
     }
 
     /**
-     * SCENARIO 3 -> PLACING ORDER
+         SCENARIO 3 -> PLACING ORDER
      */
+
 
     @Given("sending the placing order payload with required properties")
     public void sendingThePlacingOrderPayloadWithRequiredProperties() throws IOException {
@@ -136,8 +139,9 @@ public class StepDefinationsEcommerce extends util {
     }
 
     /**
-     * SCENARIO 4 -> GETTING ORDER DETAILS
+         SCENARIO 4 -> GETTING ORDER DETAILS
      */
+
 
     @Given("Fetching the order details by sending orderNumber as query parameter")
     public void fetchingTheOrderDetailsBySendingOrderNumberAsQueryParameter() throws IOException {
@@ -160,8 +164,9 @@ public class StepDefinationsEcommerce extends util {
     }
 
     /**
-     * SCENARIO 5 -> DELETING THE PRODUCT
+        SCENARIO 5 -> DELETING THE PRODUCT
      */
+
 
     @Given("Fetching the productId that to be deleted")
     public void fetchingTheProductIdThatToBeDeleted() throws IOException {

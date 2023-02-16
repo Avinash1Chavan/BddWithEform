@@ -56,7 +56,6 @@ public class DriverFactory {
     }
 
 
-
     /*driver initialized */
     public static synchronized WebDriver getDriver() {
         return tlDriver.get();

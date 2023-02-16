@@ -11,7 +11,7 @@ import static utils.CommonActions.sendKeysAndClearClick;
 
 public class SnapdealScenarios  {
     WebDriver driver;
-    @FindBy(xpath = "//div[@id='add-cart-button-id']")
+    @FindBy(xpath = "//div[@id='add-cart-button-id123']") //failed one
     WebElement clickAddtoCart;
 
     @FindBy(xpath = "//div[@class='remove-item-div']")
@@ -124,7 +124,7 @@ public class SnapdealScenarios  {
     }
 
     public void clickonviewCart() {
-        clickingOnWebElement(clickViewCart, 2);
+        clickingOnWebElement(clickViewCart, 8);
     }
 
     public WebElement ChecktheAddCartIteamRnot() {

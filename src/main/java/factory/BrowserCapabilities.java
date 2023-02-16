@@ -25,6 +25,7 @@ public class BrowserCapabilities {
         return caps;
     }
 
+    /* This method is used to set up the capabilities for headless mode*/
     public static ChromeOptions getHeadlessChromeCapability() {
 
         ChromeOptions options = new ChromeOptions();

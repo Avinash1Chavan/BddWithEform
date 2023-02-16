@@ -37,7 +37,6 @@ public class CommonActions {
         wait.ignoring(NoSuchElementException.class);
 
         //This is how we specify the condition to wait on.
-        //This is what we will explore more in this chapter
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }

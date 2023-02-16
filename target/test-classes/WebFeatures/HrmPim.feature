@@ -1,3 +1,4 @@
+@Common
 Feature: Orange Hrm AddEmployee And EmployeeList Scenario
 
 

@@ -84,7 +84,7 @@ public class AddEmployeeForHrmPage  {
 
     public void AddEmployeeActions() throws InterruptedException {
 
-        CommonActions.sendKeysWebElement(FirstName,"Bfsi");
+        CommonActions.sendKeysWebElement(FirstName,"Hello");
         CommonActions.sendKeysWebElement(MiddleName,"Zensar") ;
         CommonActions.sendKeysWebElement(LastName, "Project");
 
@@ -103,7 +103,7 @@ public class AddEmployeeForHrmPage  {
 
 
     public void dropdown() throws InterruptedException {
-        CommonActions.clickingOnWebElement(Nationalityclickdropdown, 3);
+        CommonActions.clickingOnWebElement(Nationalityclickdropdown, 8);
         // List<WebElement> options = driver.findElements(By.cssSelector("div[class='oxd-select-option'] span"));
         for (WebElement option : nationalitydropdwonListitem) {
             if (option.getText().equalsIgnoreCase("Indian")) {
@@ -133,8 +133,8 @@ public class AddEmployeeForHrmPage  {
     }
 
     public void SelectCheckboxAndSave() {
-        CommonActions.clickingOnWebElement(smokerCheckbox, 2);
-        CommonActions.clickingOnWebElement(saveButtonOnPersonalDetails, 2);
+        /*CommonActions.clickingOnWebElement(smokerCheckbox, 5);
+        CommonActions.clickingOnWebElement(saveButtonOnPersonalDetails, 5);*/
     }
 }
 

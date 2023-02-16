@@ -28,26 +28,35 @@ public class Pages {
         return load(ViewStatusPg.class);
     }
 
-    public InfrastructureRequestPage infrastructureRequestPage(){return load(InfrastructureRequestPage.class);}
+    public InfrastructureRequestPage infrastructureRequestPage() {
+        return load(InfrastructureRequestPage.class);
+    }
 
     public LinkRequestPage linkRequestPage() {
         return load(LinkRequestPage.class);
     }
+
     public LoginForOrangeHrm loginForOrangeHrm() {
         return load(LoginForOrangeHrm.class);
     }
-    public AdminPageForHrm adminPageForHrm() {return load(AdminPageForHrm.class);}
-    public LeavePageForHrm leavePageForHrm() {return load(LeavePageForHrm.class);}
 
-    public AddEmployeeForHrmPage AddEmployeeForHrmPage(){
+    public AdminPageForHrm adminPageForHrm() {
+        return load(AdminPageForHrm.class);
+    }
+
+    public LeavePageForHrm leavePageForHrm() {
+        return load(LeavePageForHrm.class);
+    }
+
+    public AddEmployeeForHrmPage AddEmployeeForHrmPage() {
         return load(AddEmployeeForHrmPage.class);
     }
 
-    public SnapdealScenarios SnapdealScenarios(){
+    public SnapdealScenarios SnapdealScenarios() {
         return load(SnapdealScenarios.class);
     }
 
-    public LoginForHrmPage LoginForHrmPage(){
+    public LoginForHrmPage LoginForHrmPage() {
         return load(LoginForHrmPage.class);
     }
 }
